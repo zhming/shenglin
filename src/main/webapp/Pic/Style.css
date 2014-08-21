@@ -1,0 +1,882 @@
+html {
+    /* scrollbar-face-color: #bf6fc4; /*---------箭头正方形、滑块颜色---------*/
+    /* scrollbar-arrow-color: #ffffff; /*---------箭头颜色---------*/
+    /* scrollbar-track-color: #fcfeff; /*---------轨道颜色---------*/
+    /* scrollbar-highlight-color: #813685; /*---------所有左、上边缘颜色---------*/
+    /* scrollbar-shadow-color: #bf6fc4; /*---------所有右、下边缘颜色---------*/
+    /* scrollbar-darkshadow-color: #000000; /*---------强阴影颜色---------*/
+    /* scrollbar-3dlight-color: #000000; /*---------亮边框颜色---------*/
+    /* scrollbar-base-color: #000000; /*---------基准色---------*/
+}
+
+body {
+    /* cursor: url(Pic/Arrow.cur); /*----鼠标光标----*/
+    /* overflow-y: hidden; /*隐藏垂直滚动条*/
+    /* filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#E98253, endColorStr=#cccccc, gradientType=0); /*背景颜色渐变*/
+}
+
+body, td, th {
+    color: #282828;
+    font-size: 12px;
+    font-family: tahoma; /**/
+    font-family: arial, helvetica, sans-serif;
+}
+
+form {
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+/* DIV垂直居中 */
+.ImgDiv {
+    text-align: center; /*水平居中*/
+    vertical-align: middle; /*垂直居中,针对FF*/
+    position: relative; /*相对定位,为下属的p采用绝对定位打好基础*/
+    display: table-cell; /*把块作为表格单元格,针对FF*/
+}
+
+.ImgDiv p {
++ position : absolute; /*绝对定位,前面加了+,针对IE*/
+    top: 50%; /*向上偏移图片自身宽度的50%,针对IE*/
+}
+
+.ImgDiv p img {
++ position : relative; /*相对定位,IE*/
+    top: -50%; /*向下偏移图片自身高度的50%,针对IE,*/
+    left: -50%; /*向左偏移图片自身宽度的50%,针对IE,*/
+}
+
+/* 自定义Select样式 */
+.dSpan_default {
+    background: url(SelectBack.gif);
+    cursor: pointer;
+    padding-left: 3px;
+    width: 90px;
+    height: 21px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.dSpan_over {
+    background: url(SelectBack.gif) 0 -21px;
+    cursor: pointer;
+    padding-left: 3px;
+    width: 90px;
+    height: 21px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.dHtml {
+    position: absolute;
+    z-index: 4;
+    overflow: auto;
+    overflow-x: hidden;
+    margin: -1 0 0 0;
+    border: #999999 1px solid;
+    background-color: #ffffff;
+    height: 100px;
+}
+
+.dOverOut {
+    cursor: pointer;
+    color: #E98253;
+    background-color: #c5e7f6;
+}
+
+/* 字体描边 */
+.SizeColor {
+    position: absolute;
+    padding: 4px;
+    filter: dropshadow(offx=1, offy=0, color=E98253) dropshadow(offx=0, offy=1, color=E98253) dropshadow(offx=0, offy=-1, color=E98253) dropshadow(offx=-1, offy=0, color=E98253);
+    /* filter: dropshadow(color=E98253, offx=1, offy=1, positive=1); /* 字体阴影 */
+}
+
+.FontFace {
+    width: 70px;
+    filter: glow(color=#000000, strength=2);
+}
+
+/* 文字竖排样式 */
+.vfont {
+    writing-mode: tb-rl;
+}
+
+input, select {
+    font-size: 12px;
+    font-family: tahoma;
+    /* border: #999999 1px outset; /* 整个文本框向上凸 */
+}
+
+.sInput {
+    height: 19px;
+    padding: 1px 0 0 3px;
+    border-top: #808080 1px solid;
+    border-right: #d4d0c8 1px solid;
+    border-bottom: #d4d0c8 1px solid;
+    border-left: #808080 1px solid;
+    background-color: #ffffff;
+}
+
+.iInput {
+    height: 19px;
+    padding: 1px 3px 0 3px;
+    background: url(Input_bg.gif); /* 文本框背景 */
+    border: #a3a3a3 1px solid;
+}
+
+.pInput {
+    width: 129px;
+    height: 22px;
+    padding: 2px 0 2px 5px;
+    background: #eeeeee url(Input_popup.gif) no-repeat; /* 文本框背景 */
+}
+
+.iSearch {
+    background: url(Search01.gif) left center no-repeat;
+    padding-left: 24px;
+    /*background: url(SearchBack01.gif) left center no-repeat;
+    padding-left: 20px;
+    margin-right: 3px;*/
+}
+
+.iSearch input {
+    font-family: arial, helvetica, sans-serif;
+    border: none;
+    background: url(Search02.gif);
+    /*background: url(SearchBack02.gif);*/
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    line-height: 17px;
+}
+
+.iSearch span {
+    /*删除整个*/
+    /*background: url(SearchBack03.gif) right center no-repeat;
+    padding-right: 4px;*/
+}
+
+.iSearchBut {
+    cursor: pointer;
+    border: none;
+    background: url(Search03.gif);
+    width: 20px;
+    /*background: url(SearchBut02.gif);
+    width: 47px;*/
+    height: 20px;
+}
+
+.iSubmit {
+    cursor: pointer;
+    background: url(iSubmit.gif) repeat-x;
+    border: #d4b06a 1px solid;
+    font-weight: bold;
+    color: #753d00;
+    letter-spacing: 3px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 20px;
+}
+
+.eiSubmit {
+    cursor: pointer;
+    background: url(iSubmit.gif) repeat-x;
+    border: #d4b06a 1px solid;
+    font-weight: bold;
+    color: #753d00;
+    letter-spacing: 1px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 20px;
+}
+
+/* A状态伪类BUG弹出图片样式控制 */
+.altImg a {
+    position: relative;
+    display: block;
+}
+
+.altImg a div {
+    display: none;
+}
+
+.altImg a:hover {
+    background-color: #ffffff;
+}
+
+.altImg a:hover div {
+    padding: 5px;
+    display: block;
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 120px;
+    top: -5px;
+    border: #999999 1px solid;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+/* 隐藏所有链接焦点 */
+:focus {
+    -moz-outline-style: none;
+}
+
+/* for Firefox */
+
+/* 普通链接样式控制 */
+a {
+    font-size: 12px;
+    color: #E98253;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E98253;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #E98253;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #E98253;
+}
+
+/* 顶部链接样式控制 */
+.iTop {
+    color: #E98253;
+}
+
+.iTop a {
+    color: #E98253;
+}
+
+.iTop a:link {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iTop a:visited {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iTop a:hover {
+    text-decoration: underline;
+    color: #E98253;
+}
+
+/* 菜单链接样式控制 */
+.iMenu {
+    width:;
+    height:;
+    background:;
+    color: #dc137d;
+    text-align:;
+    font-weight:;
+    border-right: #E98253 0px solid;
+    /* filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#E98253, endColorStr=#cccccc, gradientType=0); /**/
+    /* filter: alpha(opacity=80); /**/
+}
+
+.iMenu a {
+    color: #dc137d;
+    letter-spacing:;
+    font-weight:;
+}
+
+.iMenu a:link {
+    text-decoration: none;
+    color: #dc137d;
+}
+
+.iMenu a:visited {
+    text-decoration: none;
+    color: #dc137d;
+}
+
+.iMenu a:hover {
+    text-decoration: underline;
+    background:;
+    color: #dc137d;
+}
+
+/* 侧边链接样式控制 */
+.iLeft {
+    background:;
+    color: #E98253;
+}
+
+.iLeft a {
+    width: 100%;
+    padding-left: 5px;
+    line-height: 25px;
+    color: #E98253;
+}
+
+.iLeft a:link {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iLeft a:visited {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iLeft a:hover {
+    text-decoration: underline;
+    background:;
+    color: #E98253;
+}
+
+/* 底部链接样式控制 */
+.iBottom {
+    color: #999999;
+}
+
+.iBottom a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.iBottom a:link {
+    text-decoration: none;
+    color: #999999;
+}
+
+.iBottom a:visited {
+    text-decoration: none;
+    color: #999999;
+}
+
+.iBottom a:hover {
+    text-decoration: underline;
+    color: #999999;
+}
+
+.iHits {
+    background-color: #E98253;
+    color: #ffffff;
+    width: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    cursor: default;
+    text-align: center;
+    margin: 1;
+}
+
+/* 购物车帮助链接样式控制 */
+.iHelp {
+    color: #666666;
+    padding-right: 15px;
+    height: 25px;
+}
+
+.iHelp a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.iHelp a:link {
+    text-decoration: none;
+    color: #666666;
+}
+
+.iHelp a:visited {
+    text-decoration: none;
+    color: #666666;
+}
+
+.iHelp a:hover {
+    text-decoration: underline;
+    color: #666666;
+}
+
+/* 登录样式控制 */
+.iLogin {
+    margin-top: 150px;
+    width: 55%;
+    background-color: #ffffff;
+    border: #cad9ea 1px solid;
+}
+
+.iLogin_Top {
+    height: 30px;
+    padding-left: 10px;
+    border-bottom: #cad9ea 1px solid;
+    color: #E98253;
+    font-weight: bold;
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#f1f8fe, endColorStr=#ffffff, gradientType=0);
+}
+
+.iLogin_Main {
+    padding-left: 10px;
+    background-color: #ffffff;
+    color: #659c27;
+}
+
+.iLogin_Main a {
+    text-decoration: none;
+    color: #315da4;
+}
+
+.iLogin_Main a:link {
+    text-decoration: none;
+    color: #315da4;
+}
+
+.iLogin_Main a:visited {
+    text-decoration: none;
+    color: #315da4;
+}
+
+.iLogin_Main a:hover {
+    text-decoration: underline;
+    color: #315da4;
+}
+
+/* 产品列表图片样式控制 */
+.imgPro {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.imgPro1 {
+    background-color: #eaf0f7;
+    cursor: pointer;
+}
+
+/* 产品列表链接样式控制 */
+.iPro {
+    text-align: center;
+    color: #E98253;
+    background-color: #fce7e8;
+    height: 25px;
+    /* filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#E98253, endColorStr=#cccccc, gradientType=0); /**/
+}
+
+.iPro a {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iPro a:link {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iPro a:visited {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.iPro a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+/* 产品页数链接样式控制 */
+.ProPage {
+    height: 30px;
+    color: #e98253;
+    background-color: #fffff1;
+    border: #eeeeee 1px solid;
+    /* border: #ededce 1px solid; /**/
+}
+
+.ProPage td {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.ProPage a {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.ProPage a:link {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.ProPage a:visited {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.ProPage a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+/* 产品数字页数链接样式控制 */
+.ProPage_Num {
+    width: 18px;
+    line-height: 18px;
+    text-align: center;
+    cursor: default;
+    margin-right: 3px;
+    color: #ffffff;
+    font-weight: bold;
+    background: url(NumBack02.gif);
+}
+
+.ProPage_Num a {
+    width: 100%;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    background: url(NumBack01.gif);
+}
+
+.ProPage_Num a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ProPage_Num a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ProPage_Num a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: url(NumBack02.gif);
+}
+
+/* 产品上页下页样式控制 */
+.ProPage_Page {
+    cursor: default;
+    color: #c0c0c0;
+}
+
+/* 产品页数数字样式控制 */
+.ProPage_Font {
+    font-weight: bold;
+    color: #a20000;
+}
+
+/* 留言板样式控制 */
+.Guest_Top {
+    background-color: #ffffd9;
+    padding-right: 10px;
+    border: #eeeeee 1px solid;
+    text-align: right;
+    color: #E98253;
+}
+
+.Guest_Top a {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.Guest_Top a:link {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.Guest_Top a:visited {
+    text-decoration: none;
+    color: #E98253;
+}
+
+.Guest_Top a:hover {
+    text-decoration: underline;
+    color: #E98253;
+}
+
+.Guest_KeepTop {
+    background-color: #fffff1;
+    padding: 4px;
+    height: 25px;
+    border: #eeeeee 1px solid;
+    color: #999999;
+}
+
+.Table_Big {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.Guest_Table {
+    border: #999999 1px solid;
+    background-color: #ffffff;
+}
+
+.Table_Show1 {
+    background-color: #ffffff;
+    border-bottom: #999999 1px solid;
+}
+
+.Table_Show1 td {
+    color: #666666;
+}
+
+.Table_Show2 {
+    background-color: #ffffff;
+    padding-top: 10px;
+    width: 111px;
+}
+
+.Table_Show3 {
+    background-color: #ffffff;
+    padding: 10px 10px;
+}
+
+.Words {
+    margin-top: 10px;
+    height: 80px;
+    border: #cccccc 1px dotted;
+    padding: 3px;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-face-color: #111111; /*---------箭头正方形、滑块颜色---------*/
+    scrollbar-arrow-color: #E98253; /*---------箭头颜色---------*/
+    scrollbar-track-color: #E98253; /*---------轨道颜色---------*/
+    scrollbar-highlight-color: #E98253; /*---------所有左、上边缘颜色---------*/
+    scrollbar-shadow-color: #E98253; /*---------所有右、下边缘颜色---------*/
+    scrollbar-darkshadow-color: #000000; /*---------强阴影颜色---------*/
+    scrollbar-3dlight-color: #000000; /*---------边框---------*/
+}
+
+.Guest_Help {
+    border: #999999 1px solid;
+    background-color: #ffffff;
+}
+
+.Guest_Help td {
+    color: #999999;
+}
+
+.Guest_HelpFont {
+    color: #b50000;
+}
+
+/* 论坛TOP样式控制 */
+.Forum_Top {
+    background-color: #999999;
+    border: #999999 1px solid;
+    height: 30px;
+}
+
+.Forum_Top td {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#dddddd, endColorStr=#777777, gradientType=0);
+}
+
+.Forum_Top SPAN {
+    color: #E98253;
+}
+
+.Forum_Top .right {
+    color: #757575;
+}
+
+/* 论坛版面样式控制 */
+.Forum_Table_Border {
+    /*大表格边框*/
+    border: #708bc0 1px solid;
+}
+
+.Forum_ShowTitle_Back {
+    /*题目颜色*/
+    background-color: #fafbf5;
+}
+
+.Forum_ShowTitle_Back2 {
+    /*题目颜色2*/
+    background-color: #ffffff;
+}
+
+.Forum_ShowTitle_Bottom {
+    border-bottom: #708bc0 1px solid;
+}
+
+.Forum_Normal_Title {
+    /*浅蓝色部分*/
+    background-color: #e8f3fd;
+}
+
+.Forum_Normal_Title td {
+    color: #666666;
+}
+
+.Forum_Title_Back {
+    /*浅灰色标题*/
+    background-color: #f5f5f5;
+    border-bottom: #e1e1e1 1px solid;
+}
+
+.Forum_Title_Back td {
+    color: #666666;
+}
+
+.Forum_Mid {
+    /*大表格粉蓝色标题*/
+    background-color: #708bc0;
+    border: #4b6fb6 1px solid;
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#3f7dba, endColorStr=#2b5096, gradientType=0);
+}
+
+.Forum_Bottom {
+    /*底部帖子说明*/
+    background-color: #f5fafe;
+    border: #cad9ea 1px solid;
+}
+
+.Forum_Bottom td {
+    padding: 10px;
+    color: #006600;
+}
+
+/* 附件样式控制 */
+.ShowContent {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    filter: alpha(opacity=80);
+    background-color: #666666;
+    border: #E98253 1px solid;
+    width: 250;
+}
+
+.ShowContent td {
+    color: #ffffff;
+}
+
+.ShowContent a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ShowContent a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ShowContent a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ShowContent a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.Ahref {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Ahref:hover {
+    color: #66CCFF;
+    text-decoration: none;
+}
+
+.productTable {
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    MARGIN: auto auto auto -3.6pt;
+    WIDTH: 480.55pt;
+    BORDER-COLLAPSE: collapse;
+    BORDER-TOP: medium none;
+    BORDER-RIGHT: medium none;
+    mso-border-alt: solid windowtext .5pt;
+    mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;
+    mso-border-insideh: .5pt solid windowtext;
+    mso-border-insidev: .5pt solid windowtext;
+    mso-yfti-tbllook: 480
+}
+
+.productTableTr {
+    mso-yfti-irow: 0;
+    mso-yfti-firstrow: yes
+}
+
+.productTableTd {
+    BORDER-BOTTOM: windowtext 1pt solid;
+    BORDER-LEFT: windowtext 1pt solid;
+    PADDING-BOTTOM: 0cm;
+    BACKGROUND-COLOR: transparent;
+    PADDING-LEFT: 5.4pt;
+    WIDTH: 153pt;
+    PADDING-RIGHT: 5.4pt;
+    BORDER-TOP: windowtext 1pt solid;
+    BORDER-RIGHT: windowtext 1pt solid;
+    PADDING-TOP: 0cm;
+    mso-border-alt: solid windowtext .5pt;
+}
+
+.productTableTd_none {
+    BORDER-BOTTOM: windowtext 0pt solid;
+    BORDER-LEFT: windowtext 0pt solid;
+    PADDING-BOTTOM: 0cm;
+    BACKGROUND-COLOR: transparent;
+    PADDING-LEFT: 5.4pt;
+    WIDTH: 153pt;
+    PADDING-RIGHT: 5.4pt;
+    BORDER-TOP: windowtext 0pt solid;
+    BORDER-RIGHT: windowtext 0pt solid;
+    PADDING-TOP: 0cm;
+    mso-border-alt: solid windowtext .5pt;
+}
+
+.productTablePT {
+    TEXT-INDENT: 18.05pt;
+    MARGIN: 0cm 0cm 0pt
+}
+
+.productTableS {
+    FONT-FAMILY: 宋 体;
+    mso-hansi-font-family: Arial;
+    mso-ascii-font-family: Arial;
+    mso-bidi-font-family: Arial
+}
+
+.productTableTdMx {
+    BORDER-BOTTOM: windowtext 1pt solid;
+    BORDER-LEFT: windowtext 1pt solid;
+    PADDING-BOTTOM: 0cm;
+    BACKGROUND-COLOR: transparent;
+    PADDING-LEFT: 5.4pt;
+    WIDTH: 153pt;
+    PADDING-RIGHT: 5.4pt;
+    BORDER-TOP: #ece9d8;
+    BORDER-RIGHT: windowtext 1pt solid;
+    PADDING-TOP: 0cm;
+    mso-border-alt: solid windowtext .5pt;
+    mso-border-top-alt: solid windowtext .5pt
+}
+
+.productTablePMx {
+    TEXT-JUSTIFY: inter-ideograph;
+    TEXT-ALIGN: justify;
+    MARGIN: 0cm 0cm 0pt
+}
+
+.productTableTdMx1 {
+    BORDER-BOTTOM: windowtext 1pt solid;
+    BORDER-LEFT: #ece9d8;
+    PADDING-BOTTOM: 0cm;
+    BACKGROUND-COLOR: transparent;
+    PADDING-LEFT: 5.4pt;
+    WIDTH: 327.55pt;
+    PADDING-RIGHT: 5.4pt;
+    BORDER-TOP: #ece9d8;
+    BORDER-RIGHT: windowtext 1pt solid;
+    PADDING-TOP: 0cm;
+    mso-border-alt: solid windowtext .5pt;
+    mso-border-left-alt: solid windowtext .5pt;
+    mso-border-top-alt: solid windowtext .5pt
+}

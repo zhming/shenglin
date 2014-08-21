@@ -7,11 +7,10 @@
     <title>胜林电子 专业销售车各种载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机</title>
     <meta content="车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="keywords">
     <meta content=">胜林科技,车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="description">
-    <link rel="stylesheet" type="text/css" href="/shenglin/Pic/Style.css">
-
-    <script language="javascript" src="/shenglin/Pic/FlashView.js"></script>
-    <script language="javascript" src="/shenglin/Pic/ImgSize.js"></script>
-    <script language="javascript" src="/shenglin/js/jquery-mini-1.8.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="/shenglin//shenglin/Pic/Style.css">
+    <link rel="stylesheet" type="text/css" href="/shenglin//shenglin/Js/index.css">
+    <script language="javascript" src="/shenglin//shenglin/Pic/FlashView.js"></script>
+    <script language="javascript" src="/shenglin//shenglin/Pic/ImgSize.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <noscript>
         <iframe src="*.html"></iframe>
@@ -114,6 +113,27 @@
                                 <td width="229" background="/shenglin/images/leftBack.jpg" height="240" valign="top"
                                     style="padding-left:10px;">
 
+                                    <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
+                                    <%--<img src="/shenglin/Pic/Ar04.gif">--%>
+                                    <%--<a href="News.asp?ClassId=102" style="color:#032F76; font-size:13px;">行业新闻</a>--%>
+                                    <%--</div>--%>
+
+                                    <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
+                                    <%--<img src="/shenglin/Pic/Ar04.gif">--%>
+                                    <%--<a href="News.asp?ClassId=103" style="color:#032F76; font-size:13px;">企业新闻</a>--%>
+                                    <%--</div>--%>
+
+                                    <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
+                                    <%--<img src="/shenglin/Pic/Ar04.gif">--%>
+                                    <%--<a href="News.asp?ClassId=104" style="color:#032F76; font-size:13px;">安装监控解决方案</a>--%>
+                                    <%--</div>--%>
+
+                                    <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
+                                    <%--<img src="/shenglin/Pic/Ar04.gif">--%>
+                                    <%--<a href="News.asp?ClassId=105" style="color:#032F76; font-size:13px;">安防监控安装问题</a>--%>
+                                    <%--</div>--%>
+
+
                                     <c:forEach var="type" items="${types}">
                                         <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
                                             <c:if test="${type.key == cType}" var="ss">
@@ -184,96 +204,60 @@
                                 <td width="749" height="559" valign="top" style="line-height:25px; padding:15px;">
 
                                     <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                                        <c:forEach var="product" items="${products}">
+                                            <tr>
+                                                <td align="left" style="padding-left:15px;">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td height="31" style="border-bottom:#999999 1px dashed;">
+                                                                <img src="/shenglin/images/guide.gif"/>&nbsp;&nbsp;<a
+                                                                    href="product.html?ID=${product.id}"
+                                                                    style="color:#666"
+                                                                    title="${product.name}&#10;2013-10-14">${product.name}</a>
+                                                            </td>
+                                                                <%--<td align="right"  style="border-bottom:#999999 1px dashed;"><font color="#000000">[${product.cdate}]&nbsp;&nbsp;&nbsp;</font>--%>
+                                                                <%--</td>--%>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </c:forEach>
+                                    </table>
+                                    <table width="95%" border="0" align="center" cellpadding="3" cellspacing="0">
                                         <tr>
-                                            <td colspan="3" align="center">
-                                                <div><img src="/pic/${product.picture}"></div>
+                                            <td>
+                                                <table width="90%" border="0" align="right" cellpadding="0"
+                                                       cellspacing="0" style="font-size:10pt; padding-bottom:20px;">
+                                                    <tr>
+                                                        <td align="right">
+
+  <span class="ProPage_Page">
+  <font face=webdings>9</font>
+  <font face=webdings>7</font>
+  </span>
+                                                            第<span class="Propage_Font">1</span>页
+
+                                                            <a href="?SortID=100&ClassID=&CurPage=2&Type3=3"><font
+                                                                    face=webdings>8</font></a>
+                                                            <a href="?SortID=100&ClassID=&CurPage=39&Type3=3"><font
+                                                                    face=webdings>:</font></a>
+
+                                                            共<span class="Propage_Font">39</span>页
+                                                            <select onChange="if(this.value!='')location.href=this.value;">
+                                                                <option value="?SortID=100&ClassID=&CurPage=1&Type3=3"
+                                                                        selected>1
+                                                                </option>
+                                                                <option value="?SortID=100&ClassID=&CurPage=39&Type3=3">
+                                                                    2
+                                                                </option>
+                                                            </select>
+                                                            每页<span class="Propage_Font">16</span>条
+                                                            共<span class="Propage_Font">611</span>条记录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        </td>
+                                                    </tr>
+                                                </table>
                                             </td>
                                         </tr>
-                                        <tr class='productTableTr'>
-                                            <td class='productTableTd_none' vAlign=top width=204><P
-                                                    class=productTablePT><SPAN><STRONG>产品名称<o:p></o:p></STRONG></SPAN>
-                                            </P></td>
-                                            <td class='productTableTd_none' colSpan=2 vAlign=top width=437><P
-                                                    class=productTablePT>
-                                                <SPAN><STRONG>${product.name}<o:p></o:p></STRONG></SPAN></P></td>
-                                        </tr>
-                                        <tr class='productTableTr'>
-                                            <td class='productTableTd_none' vAlign=top width=204>&nbsp;</td>
-                                            <td class='productTableTd_none' colSpan=2 vAlign=top width=437>&nbsp;</td>
-                                        </tr>
-                                        <tr class='productTableTr'>
-                                            <td class='productTableTd_none' vAlign=top width=204><P
-                                                    class=productTablePT><SPAN><STRONG>产品类型<o:p></o:p></STRONG></SPAN>
-                                            </P></td>
-                                            <td class='productTableTd_none' colSpan=2 vAlign=top width=437><P
-                                                    class=productTablePT><SPAN><STRONG>${cTypeName}<o:p></o:p></STRONG></SPAN>
-                                            </P></td>
-                                        </tr>
-                                        <tr class='productTableTr'>
-                                            <td class='productTableTd_none' vAlign=top width=204> &nbsp;</td>
-                                            <td class='productTableTd_none' colSpan=2 vAlign=top width=437>&nbsp;</td>
-                                        </tr>
-                                        <tr class='productTableTr'>
-                                            <td class='productTableTd_none' vAlign=top width=204><P
-                                                    class=productTablePT><SPAN><STRONG>产品描述<o:p></o:p></STRONG></SPAN>
-                                            </P>
-                                                <input type="hidden" id="productStr" value="${product.cs}">
-                                            </td>
-                                            <td class='productTableTd_none' colSpan=2 vAlign=top width=437><P
-                                                    class=productTablePT><SPAN><STRONG>${product.description}<o:p></o:p></STRONG></SPAN>
-                                            </P></td>
-                                        </tr>
-                                        <tr class='productTableTr'>
-                                            <td class='productTableTd_none' vAlign=top width=204>&nbsp;</td>
-                                            <td class='productTableTd_none' colSpan=2 vAlign=top width=437>&nbsp;</td>
-                                        </tr>
-
-                                        <tr class='productTableTr'>
-                                            <td colspan="3"><P class=productTablePT>
-                                                <SPAN><STRONG>产品参数<o:p></o:p></STRONG></SPAN></P></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td colspan="3"><br/>
-
-                                                <div id="cs"></div>
-                                            </td>
-                                        </tr>
-                                        <script type="text/javascript">
-
-                                            var proStr = $("#productStr").val();
-                                            var csStr = "<TABLE class='productTable' style='line-height:25px; padding:15px;'  border=1 cellSpacing=0 cellPadding=0 width=641> <TBODY>";
-                                            csStr += " <TR class='productTableTr'>" +
-                                                    "<TD class='productTableTd' vAlign=top width=204 >" +
-                                                    "<P class=productTablePT ><SPAN><STRONG>项目<o:p></o:p></STRONG></SPAN></P></TD>" +
-                                                    "<TD class='productTableTd' colSpan=2 vAlign=top width=437>" +
-                                                    "<P class=productTablePT ><B style='mso-bidi-font-weight: normal'><SPAN class='productTableS'>描述</SPAN></B><B style='mso-bidi-font-weight: normal'><SPAN style='mso-bidi-font-family: Arial' lang=EN-US><o:p></o:p></SPAN></B></P></TD></TR>";
-                                            ;
-                                            var strs = proStr.split("~");
-                                            for (i = 0; i < strs.length; i++) {
-                                                csStr = csStr + "<tr style='mso-yfti-irow: 0; mso-yfti-firstrow: yes'>";
-//                                            alert(strs[i]);
-                                                var ss = strs[i].split("^");
-                                                for (j = 0; j < ss.length; j++) {
-//                                                alert(ss[j]);
-                                                    if (j == 0) {
-                                                        csStr += "<td width='204' class='productTableTdMx'>";
-                                                    } else {
-                                                        csStr += "<td width='437' class='productTableTdMx' colspan='2'>";
-                                                    }
-
-                                                    csStr += "<p class=a style='MARGIN: 0cm 0cm 0pt'><span class='productTableS'>";
-                                                    csStr += ss[j];
-                                                    csStr += "</span> </p>";
-
-                                                    csStr += "</td>";
-                                                }
-                                                csStr += "</tr>";
-                                            }
-                                            csStr += "<tbody></table>";
-                                            $("#cs").html(csStr);
-
-                                        </script>
                                     </table>
 
                                 </td>
@@ -285,37 +269,41 @@
         </td>
     </tr>
 </table>
-<!--
-<table width="955"  border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="955" height="22">
-  <span style="color:#AF1E32; padding-left:5px;">快速链接：</span>
-</td>
-</tr>
 
-<tr>
-<td width="955" height="6"></td>
-</tr>
-<tr>
-<td width="955" height="34" bgcolor="#AF1E32" align="center" style="color:#ffffff">
-  公司主营产品&nbsp;&nbsp;:&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=59" style="color:#ffffff">监控摄像头</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=52" style="color:#ffffff">DVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=77" style="color:#ffffff">NVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=90" style="color:#ffffff">工程宝</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp" style="color:#ffffff">监控设备</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=103" style="color:#ffffff">硬盘录像机</a>&nbsp;&nbsp;
-</td>
-</tr>
-<tr>
-<td width="955" height="75" align="center" style="line-height:23px; color:#282828;">
-  <DIR>
-      <LI>
-          <DIV align=center>CopyRight&copy; <A href="#">www.tv2211.com</A> 广州市九安光电技术有限公司<BR>Tel:020-22275999 Fax:020-22647897 Email:jinzm@tv2211.com<BR>地址：广州市天河区棠东横岭工业区3路9号 <BR>网站备案：粤ICP备10101288号·</DIV></LI></DIR>
+<table width="955" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="955" height="22">
+            <span style="color:#AF1E32; padding-left:5px;">快速链接：</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="955" height="6"></td>
+    </tr>
+    <tr>
+        <td width="955" height="34" bgcolor="#AF1E32" align="center" style="color:#ffffff">
+            公司主营产品&nbsp;&nbsp;:&nbsp;&nbsp;
+            <a href="#/Product.asp?SortId=59" style="color:#ffffff">监控摄像头</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#/Product.asp?SortId=52" style="color:#ffffff">DVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#/Product.asp?SortId=77" style="color:#ffffff">NVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#/Product.asp?SortId=90" style="color:#ffffff">工程宝</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#/Product.asp" style="color:#ffffff">监控设备</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#/Product.asp?SortId=103" style="color:#ffffff">硬盘录像机</a>&nbsp;&nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td width="955" height="75" align="center" style="line-height:23px; color:#282828;">
+            <DIR>
+                <LI>
+                    <DIV align=center>CopyRight&copy; <A href="#">www.tv2211.com</A> 广州市九安光电技术有限公司<BR>Tel:020-22275999
+                        Fax:020-22647897 Email:jinzm@tv2211.com<BR>地址：广州市天河区棠东横岭工业区3路9号 <BR>网站备案：粤ICP备10101288号·
+                    </DIV>
+                </LI>
+            </DIR>
         </td>
     </tr>
 </table>
-    -->
+
 <!-- Baidu Button BEGIN -->
 <script type="text/javascript" id="bdshare_js" data="type=slide&mini=1&img=1&uid=6432502"></script>
 <script type="text/javascript" id="bdshell_js"></script>
@@ -329,7 +317,7 @@
         src="http://static.b.qq.com/account/bizqq/js/wpa.js?wty=1&type=13&kfuin=2630881481&ws=http%3A%2F%2F&title=%E5%9C%A8%E7%BA%BF%E4%BC%81%E4%B8%9AQQ&cot1=%E5%91%A8%E4%B8%80%E8%87%B3%E5%91%A8%E5%85%AD%EF%BC%9A9%3A00-18%EF%BC%9A00&btn1=%E4%BC%81%E4%B8%9AQQ%E4%BA%A4%E8%B0%88&fsty=0&fposX=2&fposY=0&tx=2&aty=0&a=&key=_%3AVgWb%036%066T5%0B%3DT%3BR4%078%0E4%02e%099%06%60W5%01d%0Ee%061Uf"></script>
 <!-- WPA Button END -->
 
-<%--<script src="http://s13.cnzz.com/stat.php?id=4510818&web_id=4510818&show=pic" language="JavaScript"></script>--%>
+<script src="http://s13.cnzz.com/stat.php?id=4510818&web_id=4510818&show=pic" language="JavaScript"></script>
 </div>
 </center>
 </body>
