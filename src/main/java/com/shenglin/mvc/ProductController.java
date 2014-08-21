@@ -3,6 +3,7 @@ package com.shenglin.mvc;
 import com.shenglin.beans.entity.ProductEntity;
 import com.shenglin.service.ProductService;
 import com.shenglin.service.ProductTypeService;
+import com.shenglin.util.StaticValue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,9 +86,9 @@ public class ProductController {
     }
 
     @RequestMapping(value = "/addProduct.html", method = RequestMethod.POST)
-    public ModelAndView addProduct(HttpServletRequest request, @ModelAttribute("SpringWeb") ProductEntity productEntity, ModelMap model) {
+    public String addProduct(HttpServletRequest request, @ModelAttribute("SpringWeb") ProductEntity productEntity, ModelMap model) {
         String fileName = "";
-        String path = "D:/product_pic/";
+        String path = StaticValue.DIR_PIC;
         // 设置上下方文
         CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(
                 request.getSession().getServletContext());
@@ -103,7 +104,6 @@ public class ProductController {
                 MultipartFile file = multiRequest.getFile(iter.next());
                 if (file != null) {
                     fileName = file.getOriginalFilename();
-                    logger.info("fileName: ", fileName);
                     path += fileName;
 
                     File localFile = new File(path);
@@ -116,7 +116,7 @@ public class ProductController {
 
             }
         }
-        productEntity.setPicture("/test" + fileName);
+        productEntity.setPicture(fileName);
 
 
         model.addAttribute("name", productEntity.getName());
@@ -126,15 +126,14 @@ public class ProductController {
 
         model.addAttribute("cdate", productEntity.getCdate());
         int ret = productService.addProduct(productEntity);
-
-
+        ret = 0;
         if (ret == 1) {
-
-            return new ModelAndView("redirect:/productManage.html");
+            return "redirect:/productManage.html";
         }
-
-        return new ModelAndView("redirect:/error.html");
+        model.addAttribute("message", this.getClass() + " / method: " + "addProduct()");
+        return "err/error";
     }
+
 
     @RequestMapping(value = "/updateProduct.html", method = RequestMethod.GET)
     public String updateProductView(@RequestParam("ID") String id, ModelMap model) {
