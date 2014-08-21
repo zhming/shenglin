@@ -185,7 +185,7 @@
                                     <table width="95%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
                                             <td colspan="3" align="center">
-                                                <div><img src="shenglin/${product.picture}"></div>
+                                                <div><img src="/pic/${product.picture}"></div>
                                             </td>
                                         </tr>
                                         <tr class='productTableTr'>
