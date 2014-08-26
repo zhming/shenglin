@@ -120,7 +120,7 @@
                                     <c:forEach var="type" items="${types}">
                                         <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
                                                 <%--<img src="/shenglin/Pic/guide.gif">--%>
-                                            <a href="productListForCategory.html?TYPE=${type.key}"
+                                            <a href="productListForCategory.html?TYPE=${type.key}&dpage=1"
                                                style="color:#032F76; font-size:13px;">${type.value}</a>
 
                                         </div>
@@ -226,7 +226,7 @@
                                                 <span class="ProPage_Page">
                                                  <a href="?dpage=1&pagesize=${pagesize}"><font
                                                          face=webdings>9</font></a>
-                                                 <a href="?dpage=${page.previousPage}&pagesize=10"><font
+                                                 <a href="?dpage=${page.previousPage}"><font
                                                          face=webdings>7</font></a>
                                                 </span>
                                                                 </c:otherwise>
@@ -242,9 +242,9 @@
                                                                 </c:when>
 
                                                                 <c:otherwise>
-                                                                    <a href="?dpage=${ 1 + page.currentPage}&pagesize=10"><font
+                                                                    <a href="?dpage=${ 1 + page.currentPage}"><font
                                                                             face=webdings>8</font></a>
-                                                                    <a href="?dpage=${page.pages}&pagesize=10"><font
+                                                                    <a href="?dpage=${page.pages}"><font
                                                                             face=webdings>:</font></a>
                                                                 </c:otherwise>
                                                             </c:choose>
@@ -256,11 +256,11 @@
                                                                            step="1">
                                                                     <c:choose>
                                                                         <c:when test="${i eq dpage}">
-                                                                            <option value="?dpage=${i}&pagesize=10"
+                                                                            <option value="?dpage=${i}"
                                                                                     selected>${i}</option>
                                                                         </c:when>
                                                                         <c:otherwise>
-                                                                            <option value="?dpage=${i}&pagesize=10">${i}</option>
+                                                                            <option value="?dpage=${i}">${i}</option>
                                                                             s
                                                                         </c:otherwise>
                                                                     </c:choose>
