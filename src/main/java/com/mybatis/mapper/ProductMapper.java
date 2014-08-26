@@ -1,6 +1,7 @@
 package com.mybatis.mapper;
 
 import com.shenglin.beans.entity.ProductEntity;
+import org.apache.ibatis.session.RowBounds;
 
 import java.util.List;
 
@@ -12,16 +13,24 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface ProductMapper {
-    public ProductEntity getProductById(String id);
+	public ProductEntity getProductById(String id);
 
-    public List<ProductEntity> getProductAll();
+	public int countProductAll();
 
-    public int addProduct(ProductEntity productEntity);
+	public List<ProductEntity> getProductAll(RowBounds rowBounds);
 
-    public int updateProduct(ProductEntity productEntity);
+	public int addProduct(ProductEntity productEntity);
 
-    public int deleteProduct(String id);
+	public int updateProduct(ProductEntity productEntity);
 
-    public List<ProductEntity> getProductsByType(String type);
+	public int deleteProduct(String id);
+
+	public int countByType(String type);
+
+	public List<ProductEntity> getProductsByType(RowBounds rowBounds, String type);
+
+	public int countByVo(ProductEntity productEntity);
+
+	public List<ProductEntity> queryByVo(RowBounds rowBounds, ProductEntity productEntity);
 
 }

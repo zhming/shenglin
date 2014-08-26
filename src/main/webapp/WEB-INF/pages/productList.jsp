@@ -81,258 +81,197 @@
         font-size: 13px;
     }
 </style>
-<map name="MapCh" id="MapCh">
-    <area shape="rect" coords="834,16,884,39" href="#"/>
-    <area shape="rect" coords="892,17,954,39" href="en"/>
-</map>
+
 <table width="978" border="0" cellpadding="0" cellspacing="0">
-<tr>
-    <td width="11" height="223" style="padding-left:2px;">&nbsp;</td>
-    <td width="951" style="padding-left:2px;"><img src="/shenglin/images/flash.jpg" width="951" height="223"></td>
-    <td width="16" style="padding-left:2px;">&nbsp;</td>
-</tr>
-<tr>
-    <td height="78" rowspan="2" style="padding-left:2px;">&nbsp;</td>
-    <td height="10" style="padding-left:2px;">
-    </td>
-    <td height="78" rowspan="2" style="padding-left:2px;">&nbsp;</td>
-</tr>
-<tr>
-<td height="39" style="padding-left:2px;">
-<table width="955" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="11" height="223" style="padding-left:2px;">&nbsp;</td>
+        <td width="951" style="padding-left:2px;"><img src="/shenglin/images/flash.jpg" width="951" height="223"></td>
+        <td width="16" style="padding-left:2px;">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="78" rowspan="2" style="padding-left:2px;">&nbsp;</td>
+        <td height="10" style="padding-left:2px;">
+        </td>
+        <td height="78" rowspan="2" style="padding-left:2px;">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="39" style="padding-left:2px;">
+            <table width="955" border="0" cellpadding="0" cellspacing="0">
 
-<tr>
-<td width="219" valign="top">
-    <table width="229" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="229" height="30" background="/shenglin/images/left_01.jpg">
-                <span style="color:#ffffff; padding-left:10px; font-weight:bold;">产品中心</span>
-            </td>
-        </tr>
-        <tr>
-            <td width="229" background="/shenglin/images/leftBack.jpg" height="240" valign="top"
-                style="padding-left:10px;">
-
-                <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
-                <%--<img src="/shenglin/Pic/Ar04.gif">--%>
-                <%--<a href="News.asp?ClassId=102" style="color:#032F76; font-size:13px;">行业新闻</a>--%>
-                <%--</div>--%>
-
-                <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
-                <%--<img src="/shenglin/Pic/Ar04.gif">--%>
-                <%--<a href="News.asp?ClassId=103" style="color:#032F76; font-size:13px;">企业新闻</a>--%>
-                <%--</div>--%>
-
-                <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
-                <%--<img src="/shenglin/Pic/Ar04.gif">--%>
-                <%--<a href="News.asp?ClassId=104" style="color:#032F76; font-size:13px;">安装监控解决方案</a>--%>
-                <%--</div>--%>
-
-                <%--<div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">--%>
-                <%--<img src="/shenglin/Pic/Ar04.gif">--%>
-                <%--<a href="News.asp?ClassId=105" style="color:#032F76; font-size:13px;">安防监控安装问题</a>--%>
-                <%--</div>--%>
+                <tr>
+                    <td width="219" valign="top">
+                        <table width="229" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="229" height="30" background="/shenglin/images/left_01.jpg">
+                                    <span style="color:#ffffff; padding-left:10px; font-weight:bold;">产品中心</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="229" background="/shenglin/images/leftBack.jpg" height="240" valign="top"
+                                    style="padding-left:10px;">
 
 
-                <c:forEach var="type" items="${types}">
-                    <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
-                            <%--<img src="/shenglin/Pic/guide.gif">--%>
-                        <a href="productListForCategory.html?TYPE=${type.key}"
-                           style="color:#032F76; font-size:13px;">${type.value}</a>
-                    </div>
-                </c:forEach>
+                                    <c:forEach var="type" items="${types}">
+                                        <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
+                                                <%--<img src="/shenglin/Pic/guide.gif">--%>
+                                            <a href="productListForCategory.html?TYPE=${type.key}"
+                                               style="color:#032F76; font-size:13px;">${type.value}</a>
+                                        </div>
+                                    </c:forEach>
 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="/shenglin/images/left_03.jpg" width="229" height="13" alt=""></td>
-        </tr>
-        <tr>
-            <td width="229" height="30" background="/shenglin/images/left_01.jpg">
-                <span style="color:#ffffff; padding-left:10px; font-weight:bold;">最新产品</span>
-            </td>
-        </tr>
-        <tr>
-            <td width="229" height="330" background="/shenglin/images/leftBack2.JPG" valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/shenglin/images/left_03.jpg" width="229" height="13" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td width="229" height="30" background="/shenglin/images/left_01.jpg">
+                                    <span style="color:#ffffff; padding-left:10px; font-weight:bold;">最新产品</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="229" height="330" background="/shenglin/images/leftBack2.JPG" valign="top">
 
-                <div style="width:214px; float:left;  height:23px;">
-                    <img src="/shenglin/images/dian.gif">
-                    <a href="NewsShow.asp?id=759" style="color:#282828; font-size:12px;">九安将参展第十四届深圳安博会</a>
-                </div>
+                                    <div style="width:214px; float:left;  height:23px;">
+                                        <img src="/shenglin/images/dian.gif">
+                                        <a href="NewsShow.asp?id=759" style="color:#282828; font-size:12px;">九安将参展第十四届深圳安博会</a>
+                                    </div>
 
-                <div style="width:214px; float:left;  height:23px;">
-                    <img src="/shenglin/images/dian.gif">
-                    <a href="NewsShow.asp?id=748" style="color:#282828; font-size:12px;">3G无线视频监控系统特点浅析</a>
-                </div>
+                                    <div style="width:214px; float:left;  height:23px;">
+                                        <img src="/shenglin/images/dian.gif">
+                                        <a href="NewsShow.asp?id=748" style="color:#282828; font-size:12px;">3G无线视频监控系统特点浅析</a>
+                                    </div>
 
-                <div style="width:214px; float:left;  height:23px;">
-                    <img src="/shenglin/images/dian.gif">
-                    <a href="NewsShow.asp?id=747" style="color:#282828; font-size:12px;">校园安防系统监控总框架设计案例</a>
-                </div>
+                                    <div style="width:214px; float:left;  height:23px;">
+                                        <img src="/shenglin/images/dian.gif">
+                                        <a href="NewsShow.asp?id=747" style="color:#282828; font-size:12px;">校园安防系统监控总框架设计案例</a>
+                                    </div>
 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="/shenglin/images/left_06.jpg" width="229" height="5" alt=""></td>
-        </tr>
-    </table>
-<td width="726">
-    <table width="726" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="726" height="30" style="color:#000000;">
-                您现在的位置：首页>产品中心>所有产品
-            </td>
-        </tr>
-        <tr>
-            <td width="726" height="59"
-                style="color:#303030; font-family:幼圆; font-weight:bold; font-size:22px; text-align:center;">
-                产品中心
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="/shenglin/images/nRight_03.jpg" width="726" height="5" alt=""></td>
-        </tr>
-        <tr>
-            <td width="749" height="559" valign="top" style="line-height:25px; padding:15px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/shenglin/images/left_06.jpg" width="229" height="5" alt=""></td>
+                            </tr>
+                        </table>
+                    <td width="726">
+                        <table width="726" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="726" height="30" style="color:#000000;">
+                                    您现在的位置：首页>产品中心>所有产品
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="726" height="59"
+                                    style="color:#303030; font-family:幼圆; font-weight:bold; font-size:22px; text-align:center;">
+                                    产品中心
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/shenglin/images/nRight_03.jpg" width="726" height="5" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td width="749" height="559" valign="top" style="line-height:25px; padding:15px;">
 
-                <table width="95%" border="0" cellspacing="0" cellpadding="0">
-                    <c:forEach var="product" items="${products}">
-                        <tr>
-                            <td align="left" style="padding-left:15px;">
-                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                        <td height="31" style="border-bottom:#999999 1px dashed;">
-                                            <img src="/shenglin/images/guide.gif"/>&nbsp;&nbsp;<a
-                                                href="product.html?ID=${product.id}" style="color:#666"
-                                                title="${product.name}&#10;2013-10-14">${product.name}</a></td>
-                                            <%--<td align="right"  style="border-bottom:#999999 1px dashed;"><font color="#000000">[${product.cdate}]&nbsp;&nbsp;&nbsp;</font>--%>
-                                            <%--</td>--%>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </c:forEach>
-                </table>
-                <table width="95%" border="0" align="center" cellpadding="3" cellspacing="0">
-                    <tr>
-                        <td>
-                            <table width="90%" border="0" align="right" cellpadding="0" cellspacing="0"
-                                   style="font-size:10pt; padding-bottom:20px;">
-                                <tr>
-                                    <td align="right">
+                                    <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                                        <c:forEach var="product" items="${products}">
+                                            <tr>
+                                                <td align="left" style="padding-left:15px;">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td height="31" style="border-bottom:#999999 1px dashed;">
+                                                                <img src="/shenglin/images/guide.gif"/>&nbsp;&nbsp;<a
+                                                                    href="product.html?ID=${product.id}"
+                                                                    style="color:#666"
+                                                                    title="${product.name}&#10;2013-10-14">${product.name}</a>
+                                                            </td>
+                                                                <%--<td align="right"  style="border-bottom:#999999 1px dashed;"><font color="#000000">[${product.cdate}]&nbsp;&nbsp;&nbsp;</font>--%>
+                                                                <%--</td>--%>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </c:forEach>
+                                    </table>
+                                    <table width="95%" border="0" align="center" cellpadding="3" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                <table width="90%" border="0" align="right" cellpadding="0"
+                                                       cellspacing="0"
+                                                       style="font-size:10pt; padding-bottom:20px;">
+                                                    <tr>
+                                                        <td align="right">
 
-  <span class="ProPage_Page">
-  <font face=webdings>9</font>
-  <font face=webdings>7</font>
-  </span>
-                                        第<span class="Propage_Font">1</span>页
 
-                                        <a href="?SortID=100&ClassID=&CurPage=2&Type3=3"><font
-                                                face=webdings>8</font></a>
-                                        <a href="?SortID=100&ClassID=&CurPage=39&Type3=3"><font
-                                                face=webdings>:</font></a>
+                                                            <c:choose>
+                                                                <c:when test="${dpage eq 1}">
+                                                <span class="ProPage_Page">
+                                                <font face=webdings>9</font>
+                                                <font face=webdings>7</font>
+                                                </span>
+                                                                </c:when>
+                                                                <c:otherwise>
+                                                <span class="ProPage_Page">
+                                                 <a href="?dpage=1&pagesize=10"><font face=webdings>9</font></a>
+                                                 <a href="?dpage=${page.previousPage}&pagesize=10"><font
+                                                         face=webdings>7</font></a>
+                                                </span>
+                                                                </c:otherwise>
+                                                            </c:choose>
 
-                                        共<span class="Propage_Font">39</span>页
-                                        <select onChange="if(this.value!='')location.href=this.value;">
+                                                            第<span class="Propage_Font">${dpage}</span>页
 
-                                            <option value="?SortID=100&ClassID=&CurPage=1&Type3=3" selected>1</option>
 
-                                            <option value="?SortID=100&ClassID=&CurPage=2&Type3=3">2</option>
+                                                            <c:choose>
+                                                                <c:when test="${dpage eq page.pages}">
+                                                                    <font face=webdings>8</font>
+                                                                    <font face=webdings>:</font>
+                                                                </c:when>
 
-                                            <option value="?SortID=100&ClassID=&CurPage=3&Type3=3">3</option>
+                                                                <c:otherwise>
+                                                                    <a href="?dpage=${ 1 + page.currentPage}&pagesize=10"><font
+                                                                            face=webdings>8</font></a>
+                                                                    <a href="?dpage=${page.pages}&pagesize=10"><font
+                                                                            face=webdings>:</font></a>
+                                                                </c:otherwise>
+                                                            </c:choose>
 
-                                            <option value="?SortID=100&ClassID=&CurPage=4&Type3=3">4</option>
+                                                            共<span class="Propage_Font">${page.pages}</span>页
 
-                                            <option value="?SortID=100&ClassID=&CurPage=5&Type3=3">5</option>
+                                                            <select onChange="if(this.value!='')location.href=this.value;">
+                                                                <c:forEach var="i" begin="1" end="${page.pages}"
+                                                                           step="1">
+                                                                    <c:choose>
+                                                                        <c:when test="${i eq dpage}">
+                                                                            <option value="?dpage=${i}&pagesize=10"
+                                                                                    selected>${i}</option>
+                                                                        </c:when>
+                                                                        <c:otherwise>
+                                                                            <option value="?dpage=${i}&pagesize=10">${i}</option>
+                                                                            s
+                                                                        </c:otherwise>
+                                                                    </c:choose>
+                                                                </c:forEach>
+                                                            </select>
+                                                            每页<span class="Propage_Font">${page.pageSize}</span>条
+                                                            共<span class="Propage_Font">${page.records}</span>条记录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
 
-                                            <option value="?SortID=100&ClassID=&CurPage=6&Type3=3">6</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=7&Type3=3">7</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=8&Type3=3">8</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=9&Type3=3">9</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=10&Type3=3">10</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=11&Type3=3">11</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=12&Type3=3">12</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=13&Type3=3">13</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=14&Type3=3">14</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=15&Type3=3">15</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=16&Type3=3">16</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=17&Type3=3">17</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=18&Type3=3">18</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=19&Type3=3">19</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=20&Type3=3">20</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=21&Type3=3">21</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=22&Type3=3">22</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=23&Type3=3">23</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=24&Type3=3">24</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=25&Type3=3">25</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=26&Type3=3">26</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=27&Type3=3">27</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=28&Type3=3">28</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=29&Type3=3">29</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=30&Type3=3">30</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=31&Type3=3">31</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=32&Type3=3">32</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=33&Type3=3">33</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=34&Type3=3">34</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=35&Type3=3">35</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=36&Type3=3">36</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=37&Type3=3">37</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=38&Type3=3">38</option>
-
-                                            <option value="?SortID=100&ClassID=&CurPage=39&Type3=3">39</option>
-
-                                        </select>
-                                        每页<span class="Propage_Font">16</span>条
-                                        共<span class="Propage_Font">611</span>条记录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-
-            </td>
-        </tr>
-    </table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 </table>
 
 <table width="955" border="0" cellpadding="0" cellspacing="0">
@@ -383,7 +322,7 @@
         src="http://static.b.qq.com/account/bizqq/js/wpa.js?wty=1&type=13&kfuin=2630881481&ws=http%3A%2F%2F&title=%E5%9C%A8%E7%BA%BF%E4%BC%81%E4%B8%9AQQ&cot1=%E5%91%A8%E4%B8%80%E8%87%B3%E5%91%A8%E5%85%AD%EF%BC%9A9%3A00-18%EF%BC%9A00&btn1=%E4%BC%81%E4%B8%9AQQ%E4%BA%A4%E8%B0%88&fsty=0&fposX=2&fposY=0&tx=2&aty=0&a=&key=_%3AVgWb%036%066T5%0B%3DT%3BR4%078%0E4%02e%099%06%60W5%01d%0Ee%061Uf"></script>
 <!-- WPA Button END -->
 
-<script src="http://s13.cnzz.com/stat.php?id=4510818&web_id=4510818&show=pic" language="JavaScript"></script>
+<%--<script src="http://s13.cnzz.com/stat.php?id=4510818&web_id=4510818&show=pic" language="JavaScript"></script>--%>
 </div>
 </center>
 </body>

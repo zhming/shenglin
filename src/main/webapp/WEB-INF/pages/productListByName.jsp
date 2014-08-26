@@ -15,11 +15,6 @@
     <noscript>
         <iframe src="*.html"></iframe>
     </noscript>
-    <script>
-        window.onerror = function () {
-            return true
-        };
-    </script>
 
 </head>
 <body bgcolor="#cccccc" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -86,10 +81,7 @@
         font-size: 13px;
     }
 </style>
-<map name="MapCh" id="MapCh">
-    <area shape="rect" coords="834,16,884,39" href="#"/>
-    <area shape="rect" coords="892,17,954,39" href="en"/>
-</map>
+
 <table width="978" border="0" cellpadding="0" cellspacing="0">
     <tr>
         <td width="11" height="223" style="padding-left:2px;">&nbsp;</td>
@@ -117,12 +109,13 @@
                             <tr>
                                 <td width="229" background="/shenglin/images/leftBack.jpg" height="240" valign="top"
                                     style="padding-left:10px;">
+
+
                                     <c:forEach var="type" items="${types}">
                                         <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
                                                 <%--<img src="/shenglin/Pic/guide.gif">--%>
                                             <a href="productListForCategory.html?TYPE=${type.key}"
                                                style="color:#032F76; font-size:13px;">${type.value}</a>
-
                                         </div>
                                     </c:forEach>
 
@@ -172,7 +165,7 @@
                             <tr>
                                 <td width="726" height="59"
                                     style="color:#303030; font-family:幼圆; font-weight:bold; font-size:22px; text-align:center;">
-                                    产品管理
+                                    产品中心
                                 </td>
                             </tr>
                             <tr>
@@ -194,12 +187,8 @@
                                                                     style="color:#666"
                                                                     title="${product.name}&#10;2013-10-14">${product.name}</a>
                                                             </td>
-                                                            <td align="right" height="31"
-                                                                style="border-bottom:#999999 1px dashed;"><a
-                                                                    href="productDelete.html?ID=${product.id}">删除</a>
-                                                                &nbsp;&nbsp;<a
-                                                                        href="updateProduct.html?ID=${product.id}">修改</a>
-                                                            </td>
+                                                                <%--<td align="right"  style="border-bottom:#999999 1px dashed;"><font color="#000000">[${product.cdate}]&nbsp;&nbsp;&nbsp;</font>--%>
+                                                                <%--</td>--%>
                                                         </tr>
                                                     </table>
                                                 </td>
@@ -215,6 +204,7 @@
                                                     <tr>
                                                         <td align="right">
 
+
                                                             <c:choose>
                                                                 <c:when test="${dpage eq 1}">
                                                 <span class="ProPage_Page">
@@ -224,10 +214,8 @@
                                                                 </c:when>
                                                                 <c:otherwise>
                                                 <span class="ProPage_Page">
-                                                 <a href="?dpage=1&pagesize=${pagesize}"><font
-                                                         face=webdings>9</font></a>
-                                                 <a href="?dpage=${page.previousPage}&pagesize=10"><font
-                                                         face=webdings>7</font></a>
+                                                 <a href="?NAME=${name}&dpage=1"><font face=webdings>9</font></a>
+                                                 <a href="?NAME=${name}&dpage=${page.previousPage}"><font face=webdings>7</font></a>
                                                 </span>
                                                                 </c:otherwise>
                                                             </c:choose>
@@ -242,12 +230,13 @@
                                                                 </c:when>
 
                                                                 <c:otherwise>
-                                                                    <a href="?dpage=${ 1 + page.currentPage}&pagesize=10"><font
+                                                                    <a href="?NAME=${name}&dpage=${ 1 + page.currentPage}"><font
                                                                             face=webdings>8</font></a>
-                                                                    <a href="?dpage=${page.pages}&pagesize=10"><font
+                                                                    <a href="?NAME=${name}&dpage=${page.pages}"><font
                                                                             face=webdings>:</font></a>
                                                                 </c:otherwise>
                                                             </c:choose>
+
 
                                                             共<span class="Propage_Font">${page.pages}</span>页
 
@@ -256,20 +245,22 @@
                                                                            step="1">
                                                                     <c:choose>
                                                                         <c:when test="${i eq dpage}">
-                                                                            <option value="?dpage=${i}&pagesize=10"
+                                                                            <option value="?NAME=${name}&dpage=${i}"
                                                                                     selected>${i}</option>
                                                                         </c:when>
                                                                         <c:otherwise>
-                                                                            <option value="?dpage=${i}&pagesize=10">${i}</option>
+                                                                            <option value="?NAME=${name}&dpage=${i}">${i}</option>
                                                                             s
                                                                         </c:otherwise>
                                                                     </c:choose>
+
                                                                 </c:forEach>
+
                                                             </select>
                                                             每页<span class="Propage_Font">${page.pageSize}</span>条
                                                             共<span class="Propage_Font">${page.records}</span>条记录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         </td>
-                                                        </td>
+
                                                     </tr>
                                                 </table>
                                             </td>

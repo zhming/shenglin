@@ -26,8 +26,16 @@
             FROM T_PRODUCT
    </select>
    -->
+    <select id="countProductAll" resultType="int">
+        SELECT COUNT(1) FROM  T_PRODUCT
+    </select>
+
     <select id="getProductAll" resultMap="productResultMap">
         SELECT *  FROM T_PRODUCT
+   </select>
+
+    <select id="countByType" parameterType="String" resultType="int">
+        SELECT COUNT(1)  FROM T_PRODUCT WHERE p_type = #{type}
    </select>
 
     <select id="getProductsByType" parameterType="String" resultMap="productResultMap">
@@ -43,5 +51,24 @@
     <insert id="deleteProduct" parameterType="String">
         DELETE FROM T_PRODUCT WHERE p_id=#{id}
     </insert>
+
+
+    <select id="countByVo" parameterType="Product" resultType="int">
+        SELECT COUNT(2) FROM T_PRODUCT
+        <where>
+            <if test="name != null ">
+                p_name like concat('', #{name}, '%')
+            </if>
+        </where>
+    </select>
+
+    <select id="queryByVo" parameterType="Product" resultMap="productResultMap">
+        SELECT * FROM T_PRODUCT
+        <where>
+            <if test="name != null">
+                p_name like concat('', #{name}, '%')
+            </if>
+        </where>
+    </select>
 </mapper>
 

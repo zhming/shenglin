@@ -26,10 +26,18 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="configLocation" value="classpath:Configuration.xml"/>
         <property name="dataSource" ref="dataSource"/>
+
+        <property name="plugins">
+            <list>
+                <ref bean="paginationInterceptor"/>
+            </list>
+        </property>
     </bean>
     <context:component-scan base-package="com.shenglin"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 支持JSTL -->
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
@@ -57,4 +65,9 @@
         <property name="maxUploadSize" value="10485760000"/>
         <property name="maxInMemorySize" value="40960"/>
     </bean>
+
+
+    <!-- 分页查询拦截器 -->
+    <bean id="paginationInterceptor" class="com.mybatis.interceptor.PaginationInterceptor"></bean>
+
 </beans>
