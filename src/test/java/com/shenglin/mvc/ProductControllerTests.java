@@ -39,30 +39,38 @@ public class ProductControllerTests {
 
     @Test
     public void getProductByIdTest() throws Exception {
-        mockMvc.perform(get("/product.html?ID=10000013"))
+        mockMvc.perform(get("/product.html?ID=10000045"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("product"));
     }
 
-    @Test
-    public void getProductAllTest() throws Exception {
-        mockMvc.perform(get("/productAll.html"))
-                .andExpect(status().isOk())
-                .andExpect(view().name("ok"));
-    }
+
 
     @Test
     public void getProductsByCategoryTest() throws Exception {
-        mockMvc.perform(get("/productListForCategory.html?TYPE=01"))
+        mockMvc.perform(get("/productListForCategory.html?TYPE=01&dpage=1"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("productListForCategory"));
     }
 
     @Test
     public void addProductTest() throws Exception {
-        mockMvc.perform(post("/addProduct.html?").param("name", "test1").param("type", "1"))
-                .andExpect(status().isOk())
-                .andExpect(view().name("result"));
+        mockMvc.perform(post("/addProduct.html?").param("name", "test1").param("type", "01").param("dpage", "1"))
+                .andExpect(status().is(302))
+                .andExpect(view().name("redirect:/productManage.html"));
     }
 
+	@Test
+	public void getProductAllTest() throws Exception {
+		mockMvc.perform(get("/productList.html?dpage=1"))
+				.andExpect(status().isOk())
+				.andExpect(view().name("productList"));
+	}
+
+	@Test
+	public void getProductByNameTest() throws Exception {
+		mockMvc.perform(get("/getProductByName.html?NAME=D&dpage=1"))
+				.andExpect(status().isOk())
+				.andExpect(view().name("productListByName"));
+	}
 }

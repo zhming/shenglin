@@ -1,0 +1,3 @@
+[INFO ] [14:01:47] com.study.guava.HelloSlf4j - This is info message
+[WARN ] [14:01:47] com.study.guava.HelloSlf4j - This is warn message
+[ERROR] [14:01:47] com.study.guava.HelloSlf4j - This is error message

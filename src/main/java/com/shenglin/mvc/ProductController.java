@@ -199,7 +199,6 @@ public class ProductController {
 
 		model.addAttribute("cdate", productEntity.getCdate());
 		int ret = productService.addProduct(productEntity);
-		ret = 0;
 		if (ret == 1) {
 			return "redirect:/productManage.html";
 		}
@@ -217,8 +216,6 @@ public class ProductController {
 	@RequestMapping(value = "/updateProduct.html", method = RequestMethod.GET)
 	public String updateProductView(@RequestParam("ID") String id, ModelMap model) {
 		ProductEntity productEntity = productService.getProductById(id);
-		logger.info("product: ", productEntity.toString());
-		model.addAttribute("name", productEntity.getName());
 		model.addAttribute("name", productEntity.getName());
 		model.addAttribute("type", productEntity.getType());
 		model.addAttribute("description", productEntity.getDescription());
@@ -291,7 +288,6 @@ public class ProductController {
 	 *
 	 * @param name
 	 * @param dpage
-	 * @param pagesize
 	 * @param model
 	 * @return
 	 */
