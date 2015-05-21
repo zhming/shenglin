@@ -1,38 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="4ab1b3f7-642e-4c29-b482-83eb90539325" name="Default" comment="new" />
-    <list default="true" id="76e693b0-ece3-4b89-808b-87e0a894d6d6" name="Rejected commit: Default" comment="new">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/FileUpload.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/deleteResult.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/err/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/hello.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/product.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productAll.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productListByName.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productManage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/result.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/student.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentResult.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/updateProduct.jsp" />
+    <list id="4ab1b3f7-642e-4c29-b482-83eb90539325" name="Default" comment="new">
       <change type="DELETED" beforePath="E:\zhming\shenglin\.gitignore.bak" afterPath="" />
-      <change type="DELETED" beforePath="E:\zhming\shenglin\.idea\artifacts\shenglin_war.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ProductMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/ProductMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ProductTypeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/ProductTypeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dataSource.properties" afterPath="$PROJECT_DIR$/src/main/resources/dataSource.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/shenglin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/shenglin_war_exploded.xml" />
+    </list>
+    <list default="true" id="76e693b0-ece3-4b89-808b-87e0a894d6d6" name="Rejected commit: Default" comment="new">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shenglin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1403488219868" ignored="false" />
     <file path="/web.xml" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1403074067060" ignored="false" />
-    <file path="/Dummy.txt" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432194538315" ignored="false" />
+    <file path="/Dummy.txt" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432198367673" ignored="false" />
     <file path="/fragment.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1407739306840" ignored="false" />
     <file path="/hello.jsp" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1400481749383" ignored="false" />
     <file path="/DomainObject.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1403145926056" ignored="false" />
@@ -88,7 +68,7 @@
     <file path="/config.properties" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1408586930693" ignored="false" />
     <file path="/StaticValue.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1408587998706" ignored="false" />
     <file path="/error.jsp" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1408605147558" ignored="false" />
-    <file path="/a.java" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1409024348628" ignored="false" />
+    <file path="/a.java" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432198473462" ignored="false" />
     <file path="/sample.java" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1409024352272" ignored="false" />
     <file path="/a.xml" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1408669447061" ignored="false" />
     <file path="/IntegerRange.java" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1408673967248" ignored="false" />
@@ -176,89 +156,7 @@
     <favorites_list name="shenglin" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ProductMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/ProductMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="9" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductControllerTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenglin/mvc/ProductControllerTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="15" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="23" selection-start="3932" selection-end="3932" vertical-scroll-proportion="0.38795987">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTypeMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ProductTypeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataSource.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/dataSource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ProductMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Configuration.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -430,7 +328,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -922,7 +820,11 @@
       <created>1409033908254</created>
       <updated>1409033908254</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update 5.21">
+      <created>1432198350121</created>
+      <updated>1432198350121</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1021,7 +923,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="category dpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 5.21" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1039,6 +941,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="dpage" />
     <MESSAGE value="category dpage" />
+    <MESSAGE value="update 5.21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1124,35 +1027,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Configuration.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+        <state line="9" column="23" selection-start="389" selection-end="389" vertical-scroll-proportion="0.054441262">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/dataSource.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+        <state line="3" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.15745856">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
+        <state line="13" column="40" selection-start="576" selection-end="576" vertical-scroll-proportion="0.34530386">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+        <state line="8" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="-0.10497238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ProductTypeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.002762431">
           <folding />
         </state>
       </provider>
@@ -1166,7 +1069,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="23" selection-start="3932" selection-end="3932" vertical-scroll-proportion="0.38795987">
+        <state line="89" column="68" selection-start="3430" selection-end="3430" vertical-scroll-proportion="0.4916388">
           <folding />
         </state>
       </provider>
