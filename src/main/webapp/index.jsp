@@ -122,7 +122,7 @@
                     <td width="775" height="71" background="images/navBack.jpg">
                         <div class="Divone"><a href="index.jsp">首　页</a></div>
                         <div class="Divone"><a href="pages_static/About.jsp">关于我们</a></div>
-                        <div class="Divone"><a href="WEB-INF/pages/Product.jsp">产品展示</a></div>
+                        <div class="Divone"><a href="pages/Product.jsp">产品展示</a></div>
                         <div class="Divone"><a href="http://www.tv2211.com/Case.jsp">成功案例</a></div>
                         <div class="Divone"><a href="http://www.tv2211.com/Tech.jsp">服务支持</a></div>
                         <div class="Divone"><a href="http://www.tv2211.com/Join.jsp" rel="nofollow">代理加盟</a></div>

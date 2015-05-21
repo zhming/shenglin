@@ -11,7 +11,7 @@
 
     <select id="getProductTypeAll" resultMap="productTypeResultMap">
         SELECT *
-            FROM D_PRODUCT_TYPE  ORDER BY ID
+            FROM T_TYPE  ORDER BY ID
     </select>
 
 </mapper>
