@@ -837,6 +837,63 @@ a:hover {
     MARGIN: 0cm 0cm 0pt
 }
 
+.Divone {
+    width: 96px;
+    text-align: center;
+    float: left;
+}
+
+.Divone a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Divone a:visited {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Divone a:hover {
+    color: #ffff00;
+    font-size: 13px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px
+}
+
+.click_out {
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    background: #333;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    _display: inline-block;
+}
+
+.click_over {
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    background: #820000;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    _display: inline-block;
+}
+
 .productTableS {
     FONT-FAMILY: 宋 体;
     mso-hansi-font-family: Arial;
@@ -879,4 +936,25 @@ a:hover {
     mso-border-alt: solid windowtext .5pt;
     mso-border-left-alt: solid windowtext .5pt;
     mso-border-top-alt: solid windowtext .5pt
+}
+
+.Divone {
+    width: 96px;
+    text-align: center;
+    float: left;
+}
+
+.Divone a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Divone a:visited {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Divone a:hover {
+    color: #ffff00;
+    font-size: 13px;
 }
