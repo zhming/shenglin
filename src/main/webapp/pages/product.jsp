@@ -8,7 +8,7 @@
     <meta content="车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="keywords">
     <meta content=">胜林科技,车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="description">
     <link rel="stylesheet" type="text/css" href="/shenglin/Pic/Style.css">
-
+    <link rel="shortcut icon" href="/shenglin/Pic/favicon.ico" type="image/x-icon"/>
     <script language="javascript" src="/shenglin/Pic/FlashView.js"></script>
     <script language="javascript" src="/shenglin/Pic/ImgSize.js"></script>
     <script language="javascript" src="/shenglin/js/jquery-mini-1.8.1.js"></script>
@@ -36,7 +36,7 @@
                     <td width="775" height="71" background="/shenglin/images/navBack.jpg">
                         <div class="Divone"><a href="/shenglin/index.jsp">首　页</a></div>
                         <div class="Divone"><a href="About.jsp">关于我们</a></div>
-                        <div class="Divone"><a href="/shenglin//shenglin/WEB-INF/pages/Product.jsp">产品展示</a></div>
+                        <div class="Divone"><a href="/shenglin/productList.html?dpage=1">产品展示</a></div>
                         <div class="Divone"><a href="Case.jsp">成功案例</a></div>
                         <div class="Divone"><a href="Tech.jsp">服务支持</a></div>
                         <div class="Divone"><a href="Join.jsp" rel="nofollow">代理加盟</a></div>
@@ -186,7 +186,7 @@
                                     <table width="95%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
                                             <td colspan="3" align="center">
-                                                <div><img src="/pic/${product.picture}"></div>
+                                                <div><img src="${product.picture}"></div>
                                             </td>
                                         </tr>
                                         <tr class='productTableTr'>
@@ -218,6 +218,7 @@
                                                     class=productTablePT><SPAN><STRONG>产品描述<o:p></o:p></STRONG></SPAN>
                                             </P>
                                                 <input type="hidden" id="productStr" value="${product.cs}">
+                                                <input type="hidden" id="productStr1" value="${productStr}">
                                             </td>
                                             <td class='productTableTd_none' colSpan=2 vAlign=top width=437><P
                                                     class=productTablePT><SPAN><STRONG>${product.description}<o:p></o:p></STRONG></SPAN>
@@ -241,7 +242,7 @@
                                         </tr>
                                         <script type="text/javascript">
 
-                                            var proStr = $("#productStr").val();
+                                            var proStr = $("#productStr1").val();
                                             var csStr = "<TABLE class='productTable' style='line-height:25px; padding:15px;'  border=1 cellSpacing=0 cellPadding=0 width=641> <TBODY>";
                                             csStr += " <TR class='productTableTr'>" +
                                                     "<TD class='productTableTd' vAlign=top width=204 >" +
@@ -285,37 +286,7 @@
         </td>
     </tr>
 </table>
-<!--
-<table width="955"  border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="955" height="22">
-  <span style="color:#AF1E32; padding-left:5px;">快速链接：</span>
-</td>
-</tr>
 
-<tr>
-<td width="955" height="6"></td>
-</tr>
-<tr>
-<td width="955" height="34" bgcolor="#AF1E32" align="center" style="color:#ffffff">
-  公司主营产品&nbsp;&nbsp;:&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=59" style="color:#ffffff">监控摄像头</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=52" style="color:#ffffff">DVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=77" style="color:#ffffff">NVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=90" style="color:#ffffff">工程宝</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp" style="color:#ffffff">监控设备</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#/Product.asp?SortId=103" style="color:#ffffff">硬盘录像机</a>&nbsp;&nbsp;
-</td>
-</tr>
-<tr>
-<td width="955" height="75" align="center" style="line-height:23px; color:#282828;">
-  <DIR>
-      <LI>
-          <DIV align=center>CopyRight&copy; <A href="#">www.tv2211.com</A> 广州市九安光电技术有限公司<BR>Tel:020-22275999 Fax:020-22647897 Email:jinzm@tv2211.com<BR>地址：广州市天河区棠东横岭工业区3路9号 <BR>网站备案：粤ICP备10101288号·</DIV></LI></DIR>
-        </td>
-    </tr>
-</table>
-    -->
 <!-- Baidu Button BEGIN -->
 <script type="text/javascript" id="bdshare_js" data="type=slide&mini=1&img=1&uid=6432502"></script>
 <script type="text/javascript" id="bdshell_js"></script>
