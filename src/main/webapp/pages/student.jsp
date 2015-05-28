@@ -1,12 +1,13 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<html>
+<html><% String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";%>
 <head>
     <title>Spring MVC Form Handling</title>
 </head>
 <body>
 
 <h2>Student Information</h2>
-<form:form method="POST" action="/shenglin/addStudent.html">
+<form:form method="POST" action="<%= basePath%>addStudent.html">
     <table>
         <tr>
             <td><form:label path="name">Name</form:label></td>

@@ -1,4 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+%>
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -6,10 +12,10 @@
     <title>胜林电子 专业销售车各种载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机</title>
     <meta content="车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="keywords">
     <meta content=">胜林科技,车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="description">
-    <link rel="stylesheet" type="text/css" href="../Pic/Style.css">
+    <link rel="stylesheet" type="text/css" href="<%= basePath%>/Pic/Style.css">
     <link rel="stylesheet" type="text/css" href="Js/index.css">
-    <script language="javascript" src="../Pic/FlashView.js"></script>
-    <script language="javascript" src="../Pic/ImgSize.js"></script>
+    <script language="javascript" src="<%= basePath%>/Pic/FlashView.js"></script>
+    <script language="javascript" src="<%= basePath%>/Pic/ImgSize.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <noscript>
         <iframe src="*.html"></iframe>
@@ -108,7 +114,7 @@
 <table width="978" height="110" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
     <tr>
         <td>
-            <img src="../images/index_01.jpg" alt="九安光电是专业生产硬盘录像机的厂家" width="978" height="110" border="0"
+            <img src="<%= basePath%>/images/index_01.jpg" alt="九安光电是专业生产硬盘录像机的厂家" width="978" height="110" border="0"
                  usemap="#MapCh"></td>
     </tr>
     <tr>
@@ -116,18 +122,18 @@
             <table width="978" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td>
-                        <img src="../images/nav_01.jpg" width="15" height="71" alt=""></td>
-                    <td width="775" height="71" background="../images/navBack.jpg">
-                        <div class="Divone"><a href="../index.jsp">首　页</a></div>
+                        <img src="<%= basePath%>/images/nav_01.jpg" width="15" height="71" alt=""></td>
+                    <td width="775" height="71" background="<%= basePath%>/images/navBack.jpg">
+                        <div class="Divone"><a href="<%= basePath%>/index.jsp">首　页</a></div>
                         <div class="Divone"><a href="About.jsp">关于我们</a></div>
-                        <div class="Divone"><a href="../WEB-INF/pages/Product.jsp">产品展示</a></div>
+                        <div class="Divone"><a href="<%= basePath%>productList.html?dpage=1">产品展示</a></div>
                         <div class="Divone"><a href="Case.jsp">成功案例</a></div>
                         <div class="Divone"><a href="Tech.jsp">服务支持</a></div>
                         <div class="Divone"><a href="Join.jsp" rel="nofollow">代理加盟</a></div>
                         <div class="Divone"><a href="News.jsp">新闻中心</a></div>
                         <div class="Divone"><a href="Contact.jsp" rel="nofollow">联系我们</a></div>
                     </td>
-                    <td width="167" height="71" background="../images/navBack.jpg" align="center">
+                    <td width="167" height="71" background="<%= basePath%>/images/navBack.jpg" align="center">
                         <form id=search action="Product.asp">
                             <input type="text"
                                    style="width:110px; background-color:#ffffff; border:#C1C5CA 1px solid; color:#000000;  height:20px"
@@ -138,34 +144,13 @@
                                 >
                     </td>
                     <td>
-                        <img src="../images/nav_04.jpg" width="22" height="71" alt=""></td>
+                        <img src="<%= basePath%>/images/nav_04.jpg" width="22" height="71" alt=""></td>
                 </tr>
             </table>
         </td>
     </tr>
 </table>
-<style type="text/css">
-    .Divone {
-        width: 96px;
-        text-align: center;
-        float: left;
-    }
 
-    .Divone a {
-        color: #fff;
-        font-size: 13px;
-    }
-
-    .Divone a:visited {
-        color: #fff;
-        font-size: 13px;
-    }
-
-    .Divone a:hover {
-        color: #ffff00;
-        font-size: 13px;
-    }
-</style>
 <map name="MapCh" id="MapCh">
     <area shape="rect" coords="834,16,884,39" href="#"/>
     <area shape="rect" coords="892,17,954,39" href="en"/>
@@ -173,7 +158,8 @@
 <table width="978" border="0" cellpadding="0" cellspacing="0">
     <tr>
         <td width="11" height="223" style="padding-left:2px;">&nbsp;</td>
-        <td width="951" style="padding-left:2px;"><img src="../images/contact.jpg" width="951" height="223"></td>
+        <td width="951" style="padding-left:2px;"><img src="<%= basePath%>/images/contact.jpg" width="951" height="223">
+        </td>
         <td width="16" style="padding-left:2px;">&nbsp;</td>
     </tr>
     <tr>
@@ -189,26 +175,27 @@
                     <td width="219" valign="top">
                         <table width="229" border="0" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td width="229" height="30" background="../images/left_01.jpg">
+                                <td width="229" height="30" background="<%= basePath%>/images/left_01.jpg">
                                     <span style="color:#ffffff; padding-left:10px; font-weight:bold;">联系我们</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="229" background="../images/leftBack.jpg" height="240" valign="top"
+                                <td width="229" background="<%= basePath%>/images/leftBack.jpg" height="240"
+                                    valign="top"
                                     style="padding-left:10px;">
 
                                     <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
-                                        <img src="../Pic/Ar04.gif">
+                                        <img src="<%= basePath%>/Pic/Ar04.gif">
                                         <a href="Contact.asp?aid=93" style="color:#032F76; font-size:13px;">在线客服</a>
                                     </div>
 
                                     <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
-                                        <img src="../Pic/Ar04.gif">
+                                        <img src="<%= basePath%>/Pic/Ar04.gif">
                                         <a href="Contact.asp?aid=94" style="color:#032F76; font-size:13px;">服务网络</a>
                                     </div>
 
                                     <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
-                                        <img src="../Pic/Ar04.gif">
+                                        <img src="<%= basePath%>/Pic/Ar04.gif">
                                         <a href="Contact.asp?aid=95" style="color:#032F76; font-size:13px;">联系方法</a>
                                     </div>
 
@@ -216,78 +203,79 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../images/left_03.jpg" width="229" height="13" alt=""></td>
+                                    <img src="<%= basePath%>/images/left_03.jpg" width="229" height="13" alt=""></td>
                             </tr>
                             <tr>
-                                <td width="229" height="30" background="../images/left_01.jpg">
+                                <td width="229" height="30" background="<%= basePath%>/images/left_01.jpg">
                                     <span style="color:#ffffff; padding-left:10px; font-weight:bold;">最新新闻</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="229" height="330" background="../images/leftBack2.JPG" valign="top">
+                                <td width="229" height="330" background="<%= basePath%>/images/leftBack2.JPG"
+                                    valign="top">
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=759" style="color:#282828; font-size:12px;">九安将参展第十四届深圳安博会</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=758" style="color:#282828; font-size:12px;">视频监控明年底力争覆盖东莞全市</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=757" style="color:#282828; font-size:12px;">黄金周结束，归程应加强安全防范</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=756" style="color:#282828; font-size:12px;">光纤与物联网融合，未来应用广泛</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=755" style="color:#282828; font-size:12px;">视频会议摄像机引领信息化潮流</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=754" style="color:#282828; font-size:12px;">3G无线视频监控有哪些特点？</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=753" style="color:#282828; font-size:12px;">智能分析技术让视频监控更顺利</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=752" style="color:#282828; font-size:12px;">做好道路监控，让安全一路畅行</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=751" style="color:#282828; font-size:12px;">智慧城市项目为武汉经济发展插上</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=750" style="color:#282828; font-size:12px;">从创新入手推动智慧城市发展</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=749" style="color:#282828; font-size:12px;">公交车，别让安防产品成为摆设</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=748" style="color:#282828; font-size:12px;">3G无线视频监控系统特点浅析</a>
                                     </div>
 
                                     <div style="width:214px; float:left;  height:23px;">
-                                        <img src="../images/dian.gif">
+                                        <img src="<%= basePath%>/images/dian.gif">
                                         <a href="NewsShow.asp?id=747" style="color:#282828; font-size:12px;">校园安防系统监控总框架设计案例</a>
                                     </div>
 
@@ -295,7 +283,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../images/left_06.jpg" width="229" height="5" alt=""></td>
+                                    <img src="<%= basePath%>/images/left_06.jpg" width="229" height="5" alt=""></td>
                             </tr>
                         </table>
                     <td width="726">
@@ -313,7 +301,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../images/nRight_03.jpg" width="726" height="5" alt=""></td>
+                                    <img src="<%= basePath%>/images/nRight_03.jpg" width="726" height="5" alt=""></td>
                             </tr>
                             <tr>
                                 <td width="726" height="559" valign="top" style="line-height:25px; padding:15px;">

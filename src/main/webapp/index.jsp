@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<html>
+<html><% String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";%>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -123,7 +124,7 @@
                     <td width="775" height="71" background="images/navBack.jpg">
                         <div class="Divone"><a href="index.jsp">首　页</a></div>
                         <div class="Divone"><a href="pages_static/About.jsp">关于我们</a></div>
-                        <div class="Divone"><a href="/shenglin/productList.html?dpage=1">产品展示</a></div>
+                        <div class="Divone"><a href="<%= basePath%>productList.html?dpage=1">产品展示</a></div>
                         <div class="Divone"><a href="#">成功案例</a></div>
                         <div class="Divone"><a href="#">服务支持</a></div>
                         <div class="Divone"><a href="#" rel="nofollow">代理加盟</a></div>
@@ -205,6 +206,7 @@
         _display: inline-block;
     }
 </style>
+
 <map name="MapCh" id="MapCh">
     <area shape="rect" coords="834,16,884,39" href="#"/>
     <area shape="rect" coords="892,17,954,39" href="en"/>
