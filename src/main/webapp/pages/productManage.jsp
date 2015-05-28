@@ -213,6 +213,7 @@
                                                        cellspacing="0"
                                                        style="font-size:10pt; padding-bottom:20px;">
                                                     <tr>
+                                                        <td align="left"><a href="newProduct.html">新增产品</a></td>
                                                         <td align="right">
 
                                                             <c:choose>
@@ -299,20 +300,20 @@
     <tr>
         <td width="955" height="34" bgcolor="#AF1E32" align="center" style="color:#ffffff">
             公司主营产品&nbsp;&nbsp;:&nbsp;&nbsp;
-            <a href="http://www.tv2211.com/Product.asp?SortId=59" style="color:#ffffff">监控摄像头</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="http://www.tv2211.com/Product.asp?SortId=52" style="color:#ffffff">DVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="http://www.tv2211.com/Product.asp?SortId=77" style="color:#ffffff">NVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="http://www.tv2211.com/Product.asp?SortId=90" style="color:#ffffff">工程宝</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="http://www.tv2211.com/Product.asp" style="color:#ffffff">监控设备</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="http://www.tv2211.com/Product.asp?SortId=103" style="color:#ffffff">硬盘录像机</a>&nbsp;&nbsp;
+            <a href="#?SortId=59" style="color:#ffffff">监控摄像头</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#?SortId=52" style="color:#ffffff">DVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#?SortId=77" style="color:#ffffff">NVR</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#?SortId=90" style="color:#ffffff">工程宝</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#" style="color:#ffffff">监控设备</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#?SortId=103" style="color:#ffffff">硬盘录像机</a>&nbsp;&nbsp;
         </td>
     </tr>
     <tr>
         <td width="955" height="75" align="center" style="line-height:23px; color:#282828;">
             <DIR>
                 <LI>
-                    <DIV align=center>CopyRight&copy; <A href="http://www.tv2211.com">www.tv2211.com</A>
-                        广州市九安光电技术有限公司<BR>Tel:020-22275999 Fax:020-22647897 Email:jinzm@tv2211.com<BR>地址：广州市天河区棠东横岭工业区3路9号
+                    <DIV align=center>CopyRight&copy; <A href="http://www.tv2211.com">www.shenglin.com</A>
+                        胜林科技有限公司<BR>Tel:020-2222222 Fax:020-222222 Email:jinzm@tv2211.com<BR>地址：深圳
                         <BR>网站备案：粤ICP备10101288号·
                     </DIV>
                 </LI>

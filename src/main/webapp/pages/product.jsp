@@ -122,7 +122,7 @@
                                             <c:if test="${ss == false}">
                                                 <img src="/shenglin/Pic/guide.gif">
                                             </c:if>
-                                            <a href="productListForCategory.html?TYPE=${type.key}"
+                                            <a href="productListForCategory.html?TYPE=${type.key}&dpage=1"
                                                style="color:#032F76; font-size:13px;">${type.value}</a>
                                         </div>
                                     </c:forEach>
@@ -218,7 +218,6 @@
                                                     class=productTablePT><SPAN><STRONG>产品描述<o:p></o:p></STRONG></SPAN>
                                             </P>
                                                 <input type="hidden" id="productStr" value="${product.cs}">
-                                                <input type="hidden" id="productStr1" value="${productStr}">
                                             </td>
                                             <td class='productTableTd_none' colSpan=2 vAlign=top width=437><P
                                                     class=productTablePT><SPAN><STRONG>${product.description}<o:p></o:p></STRONG></SPAN>
@@ -242,7 +241,7 @@
                                         </tr>
                                         <script type="text/javascript">
 
-                                            var proStr = $("#productStr1").val();
+                                            var proStr = $("#productStr").val();
                                             var csStr = "<TABLE class='productTable' style='line-height:25px; padding:15px;'  border=1 cellSpacing=0 cellPadding=0 width=641> <TBODY>";
                                             csStr += " <TR class='productTableTr'>" +
                                                     "<TD class='productTableTd' vAlign=top width=204 >" +

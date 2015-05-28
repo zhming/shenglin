@@ -374,3 +374,24 @@ body {
     line-height: 21px;
     text-decoration: none;
 }
+
+.Divone {
+    width: 96px;
+    text-align: center;
+    float: left;
+}
+
+.Divone a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Divone a:visited {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Divone a:hover {
+    color: #ffff00;
+    font-size: 13px;
+}

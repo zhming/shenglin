@@ -7,11 +7,11 @@
     <title>胜林电子 专业销售车各种载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机</title>
     <meta content="车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="keywords">
     <meta content=">胜林科技,车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="description">
-    <link rel="stylesheet" type="text/css" href="/shenglin//shenglin/Pic/Style.css">
-    <link rel="stylesheet" type="text/css" href="/shenglin//shenglin/Js/index.css">
+    <link rel="stylesheet" type="text/css" href="/shenglin/Pic/Style.css">
+    <link rel="stylesheet" type="text/css" href="/shenglin/Js/index.css">
     <link rel="shortcut icon" href="/shenglin/Pic/favicon.ico" type="image/x-icon"/>
-    <script language="javascript" src="/shenglin//shenglin/Pic/FlashView.js"></script>
-    <script language="javascript" src="/shenglin//shenglin/Pic/ImgSize.js"></script>
+    <script language="javascript" src="/shenglin/Pic/FlashView.js"></script>
+    <script language="javascript" src="/shenglin/Pic/ImgSize.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <noscript>
         <iframe src="*.html"></iframe>
@@ -36,7 +36,7 @@
                     <td width="775" height="71" background="/shenglin/images/navBack.jpg">
                         <div class="Divone"><a href="/shenglin/index.jsp">首　页</a></div>
                         <div class="Divone"><a href="About.jsp">关于我们</a></div>
-                        <div class="Divone"><a href="/shenglin//shenglin/WEB-INF/pages/Product.jsp">产品展示</a></div>
+                        <div class="Divone"><a href="/shenglin/productList.html?dpage=1">产品展示</a></div>
                         <div class="Divone"><a href="Case.jsp">成功案例</a></div>
                         <div class="Divone"><a href="Tech.jsp">服务支持</a></div>
                         <div class="Divone"><a href="Join.jsp" rel="nofollow">代理加盟</a></div>

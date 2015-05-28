@@ -43,7 +43,7 @@
                         <div class="Divone"><a href="Contact.jsp" rel="nofollow">联系我们</a></div>
                     </td>
                     <td width="167" height="71" background="/shenglin/images/navBack.jpg" align="center">
-                        <form id=search action="Product.asp">
+                        <form id=search action="#">
                             <input type="text"
                                    style="width:110px; background-color:#ffffff; border:#C1C5CA 1px solid; color:#000000;  height:20px"
                                    id="keyWord" name="keyword" value="" onFocus="if(this.value==''){this.value='';}"

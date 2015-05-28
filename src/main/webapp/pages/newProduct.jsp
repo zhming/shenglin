@@ -37,7 +37,7 @@
 
         <tr>
             <td><form:label path="cdate">上架日期</form:label></td>
-            <td><form:input path="cdate"/></td>
+            <td><form:input path="cdate"/><span>日期格式：2015/01/01</span></td>
         </tr>
         <tr>
             <td>上传文件</td>

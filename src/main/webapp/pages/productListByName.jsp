@@ -8,6 +8,7 @@
     <meta content="车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="keywords">
     <meta content=">胜林科技,车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="description">
     <link rel="stylesheet" type="text/css" href="/shenglin//shenglin/Pic/Style.css">
+
     <link rel="stylesheet" type="text/css" href="/shenglin//shenglin/Js/index.css">
     <script language="javascript" src="/shenglin//shenglin/Pic/FlashView.js"></script>
     <script language="javascript" src="/shenglin//shenglin/Pic/ImgSize.js"></script>
@@ -59,28 +60,6 @@
         </td>
     </tr>
 </table>
-<style type="text/css">
-    .Divone {
-        width: 96px;
-        text-align: center;
-        float: left;
-    }
-
-    .Divone a {
-        color: #fff;
-        font-size: 13px;
-    }
-
-    .Divone a:visited {
-        color: #fff;
-        font-size: 13px;
-    }
-
-    .Divone a:hover {
-        color: #ffff00;
-        font-size: 13px;
-    }
-</style>
 
 <table width="978" border="0" cellpadding="0" cellspacing="0">
     <tr>
@@ -114,7 +93,7 @@
                                     <c:forEach var="type" items="${types}">
                                         <div style="width:200px; float:left;  height:26px;  padding-top:7px; border-bottom:#fff 1px solid;">
                                                 <%--<img src="/shenglin/Pic/guide.gif">--%>
-                                            <a href="productListForCategory.html?TYPE=${type.key}"
+                                            <a href="productListForCategory.html?TYPE=${type.key}&dpage=1"
                                                style="color:#032F76; font-size:13px;">${type.value}</a>
                                         </div>
                                     </c:forEach>

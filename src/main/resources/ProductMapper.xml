@@ -17,15 +17,15 @@
         SELECT * FROM T_PRODUCT  WHERE ID=#{id}
    </select>
     <!--
-    <select id="getProductAll"  resultType="Product" >
-        SELECT p_id as id,
-            p_name as name,
-            p_type as type,
-            p_description as description,
-            c_date as cdate
-            FROM T_PRODUCT
-   </select>
-   -->
+      <select id="getProductAll"  resultType="Product" >
+          SELECT p_id as id,
+              p_name as name,
+              p_type as type,
+              p_description as description,
+              c_date as cdate
+              FROM T_PRODUCT
+     </select>
+     -->
     <select id="countProductAll" resultType="int">
         SELECT COUNT(1) FROM  T_PRODUCT
     </select>
