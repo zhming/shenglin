@@ -631,9 +631,7 @@
                 var index_num = $("#flash_num>li").index(this);
                 showSys(index_num);
                 index = index_num + 1;  //改变全局变量的值，以便鼠标移开的时候能够衔接上
-                //$(".click_out").removeClass("click_over").eq(index).addClass("click_over");
-                //$(".click_out").eq(index).removeClass().addClass("click_over");
-                //alert(index);
+
             });
             $("#flash_outer").mouseover(function ()  //移动到上面时停止自动切换
             {

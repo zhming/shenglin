@@ -11,13 +11,11 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 -- 导出 shenglin 的数据库结构
-DROP DATABASE IF EXISTS `shenglin`;
 CREATE DATABASE IF NOT EXISTS `shenglin` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `shenglin`;
 
 
 -- 导出  表 shenglin.t_product 结构
-DROP TABLE IF EXISTS `t_product`;
 CREATE TABLE IF NOT EXISTS `t_product` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `PRODUCT_NAME` varchar(200) DEFAULT NULL COMMENT '产品名称',
@@ -29,21 +27,22 @@ CREATE TABLE IF NOT EXISTS `t_product` (
   PRIMARY KEY (`ID`),
   KEY `FK_t_product_t_type` (`PRODUCT_TYPE`),
   CONSTRAINT `FK_t_product_t_type` FOREIGN KEY (`PRODUCT_TYPE`) REFERENCES `t_type` (`ID`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=10000061 DEFAULT CHARSET=utf8 COMMENT='产品明细表';
+) ENGINE=InnoDB AUTO_INCREMENT=10000064 DEFAULT CHARSET=utf8 COMMENT='产品明细表';
 
--- 正在导出表  shenglin.t_product 的数据：~3 rows (大约)
+-- 正在导出表  shenglin.t_product 的数据：~6 rows (大约)
 DELETE FROM `t_product`;
 /*!40000 ALTER TABLE `t_product` DISABLE KEYS */;
 INSERT INTO `t_product` (`ID`, `PRODUCT_NAME`, `PRODUCT_TYPE`, `DESCRIPTION`, `PARAMETER`, `PICTURE`, `CREATE_DATE`) VALUES
 	(10000045, '13寸一体式硬盘录像机', '02', '采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。', '操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/5.jpg', '2015-05-21'),
-	(10000055, 'MacBook', '03', '等发达发发发发打发打发打发打发发啊的', '操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/01.jpg', '2015-03-16'),
-	(10000056, 'Mac Pro', '02', '等发达发发发发打发打发打发打发发啊的', '操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/logo.jpg', '2015-05-16'),
-	(10000060, 'mac', '01', '等发达发发发发打发打发打发打发发啊的', '操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/mac.jpg', '2015-05-16');
+	(10000055, 'MacBook44444', '04', 'AAAAAA等发达发发发发打发打发打发打发发啊的', '4444操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', NULL, '2015-03-28'),
+	(10000060, 'mac554', '05', '5555555555555555等发达发发发发打发打发打发打发发啊的', '255555操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', NULL, '2015-05-28'),
+	(10000061, 'mvn-book121', '01', '大法师大法沙发沙发沙发上大发大水法的打算', '操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/5.jpg', '2015-05-16'),
+	(10000062, 'mvn-bookrtrtr', '01', '等发达发发发发打发打发打发打发发啊的', '操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/5.jpg', '2015-05-16'),
+	(10000063, 'mvn-book air', '02', '等发达发发发发打发打发打发打发发啊的', 'Mac操作系统^Linux~操作系统^Linux 的一款高端硬盘车载监控录像机。采用高速处理器和嵌入式操作系统，结合了IT领域各项最新技术，如音视频编解码技术、大容量硬盘存储技术、流媒体网络技术、视音频降噪技术、成熟的减震技术、宽电压设计，外观简洁，安装灵活方便，功能强大，系统安全可靠。~操作系统^Linux ~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux~操作系统^Linux', '/pic/5.jpg', '2015-05-16');
 /*!40000 ALTER TABLE `t_product` ENABLE KEYS */;
 
 
 -- 导出  表 shenglin.t_type 结构
-DROP TABLE IF EXISTS `t_type`;
 CREATE TABLE IF NOT EXISTS `t_type` (
   `ID` varchar(2) NOT NULL,
   `TYPE_NAME` varchar(200) DEFAULT NULL COMMENT '产品类型名称',
@@ -51,20 +50,20 @@ CREATE TABLE IF NOT EXISTS `t_type` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='产品类型';
 
--- 正在导出表  shenglin.t_type 的数据：~5 rows (大约)
+-- 正在导出表  shenglin.t_type 的数据：~6 rows (大约)
 DELETE FROM `t_type`;
 /*!40000 ALTER TABLE `t_type` DISABLE KEYS */;
 INSERT INTO `t_type` (`ID`, `TYPE_NAME`, `TYPE_CODE`) VALUES
-	('01', '硬盘录像机', '01'),
-	('02', '一体式硬盘摄像机', '02'),
-	('03', '网络摄像机', '03'),
-	('04', '车载云台摄像机', '04'),
-	('05', '车载硬盘摄像机', '05');
+	('01', '车载式硬盘录像机', '01'),
+	('02', '车载式SD卡录像机', '02'),
+	('03', '车载式摄像机', '03'),
+	('04', '车载式液晶显示器', '04'),
+	('05', '车载云台摄像机', '05'),
+	('06', '3G单兵执法监控系统', '06');
 /*!40000 ALTER TABLE `t_type` ENABLE KEYS */;
 
 
 -- 导出  表 shenglin.t_user 结构
-DROP TABLE IF EXISTS `t_user`;
 CREATE TABLE IF NOT EXISTS `t_user` (
   `USER_ID` varchar(32) NOT NULL,
   `USERNAME` varchar(32) DEFAULT NULL,

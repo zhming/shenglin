@@ -69,7 +69,7 @@
         </table>
 
         <h2>增加产品</h2>
-        <form:form enctype="multipart/form-data" method="post" action="addProduct.html">
+        <form:form enctype="multipart/form-data" method="post" action="addOrUpdateProduct.html">
         <table>
             <tr>
                 <td><form:label path="name">产品名称</form:label></td>

@@ -13,7 +13,7 @@
         <result property="cdate" column="CREATE_DATE"/>
     </resultMap>
 
-    <select id="getProductById" parameterType="String" resultMap="productResultMap">
+    <select id="getProductById" parameterType="Long" resultMap="productResultMap">
         SELECT * FROM T_PRODUCT  WHERE ID=#{id}
    </select>
     <!--
@@ -48,7 +48,7 @@
             VALUES (#{name}, #{type}, #{description}, #{cs}, #{picture}, #{cdate});
    </insert>
 
-    <insert id="deleteProduct" parameterType="String">
+    <insert id="deleteProduct" parameterType="Long">
         DELETE FROM T_PRODUCT WHERE id=#{id}
     </insert>
 
@@ -70,5 +70,17 @@
             </if>
         </where>
     </select>
+
+    <update id="updateProduct" parameterType="Product">
+        UPDATE T_PRODUCT
+          SET  product_name = #{name},
+               product_type = #{type},
+               description = #{description},
+               parameter =  #{cs},
+               picture = #{picture},
+               create_date = #{cdate}
+          WHERE id = #{id}
+
+    </update>
 </mapper>
 

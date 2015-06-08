@@ -13,24 +13,24 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface ProductMapper {
-	public ProductEntity getProductById(String id);
+    public ProductEntity getProductById(Long id);
 
-	public int countProductAll();
+    public int countProductAll();
 
-	public List<ProductEntity> getProductAll(RowBounds rowBounds);
+    public List<ProductEntity> getProductAll(RowBounds rowBounds);
 
-	public int addProduct(ProductEntity productEntity);
+    public int addProduct(ProductEntity productEntity);
 
-	public int updateProduct(ProductEntity productEntity);
+    public int updateProduct(ProductEntity productEntity);
 
-	public int deleteProduct(String id);
+    public int deleteProduct(Long id);
 
-	public int countByType(String type);
+    public int countByType(String type);
 
-	public List<ProductEntity> getProductsByType(RowBounds rowBounds, String type);
+    public List<ProductEntity> getProductsByType(RowBounds rowBounds, String type);
 
-	public int countByVo(ProductEntity productEntity);
+    public int countByVo(ProductEntity productEntity);
 
-	public List<ProductEntity> queryByVo(RowBounds rowBounds, ProductEntity productEntity);
+    public List<ProductEntity> queryByVo(RowBounds rowBounds, ProductEntity productEntity);
 
 }

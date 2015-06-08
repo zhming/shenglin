@@ -20,73 +20,81 @@ import java.util.List;
  */
 @Service("productService")
 public class ProductServiceImpl implements ProductService {
-	private static final Logger logger = LoggerFactory.getLogger(ProductServiceImpl.class);
-	@Resource
-	private ProductMapper productMapper;
+    private static final Logger logger = LoggerFactory.getLogger(ProductServiceImpl.class);
+    @Resource
+    private ProductMapper productMapper;
 
-	@Override
-	public ProductEntity getProductById(String id) {
-		ProductEntity product = null;
-		product = productMapper.getProductById(id);
-		logger.info("查询结果: id = {}, product: {}", id, product.toString());
-		return product;
-	}
+    @Override
+    public ProductEntity getProductById(Long id) {
+        ProductEntity product = null;
+        product = productMapper.getProductById(id);
+        logger.info("查询结果: id = {}, product: {}", id, product.toString());
+        return product;
+    }
 
-	@Override
-	public int countProductAll() {
-		return productMapper.countProductAll();
-	}
+    @Override
+    public int countProductAll() {
+        return productMapper.countProductAll();
+    }
 
-	@Override
-	public List<ProductEntity> getProductAll(int offset, int limit) {
-		List<ProductEntity> products = productMapper.getProductAll(new RowBounds(offset, limit));
-		logger.info("getProductAll() list.size = {}", products.size());
-		return products;
-	}
+    @Override
+    public List<ProductEntity> getProductAll(int offset, int limit) {
+        List<ProductEntity> products = productMapper.getProductAll(new RowBounds(offset, limit));
+        logger.info("getProductAll() list.size = {}", products.size());
+        return products;
+    }
 
-	@Override
-	public int addProduct(ProductEntity productEntity) {
-		int result = productMapper.addProduct(productEntity);
-		logger.info("addProduct() product:{}, result:{}", productEntity.toString(), result);
-		return result;
-	}
+    @Override
+    public int addProduct(ProductEntity productEntity) {
+        Long id = productEntity.getId();
+        if (id == null) id = 0L;
+        logger.info("id:{}", id);
+        ProductEntity product = productMapper.getProductById(id);
+        if (product != null) {
+            logger.info("updateProduct");
+            return updateProduct(productEntity);
+        }
+        int result = productMapper.addProduct(productEntity);
+        logger.info("addProduct() product:{}, result:{}", productEntity.toString(), result);
+        return result;
+    }
 
-	@Override
-	public int updateProduct(ProductEntity productEntity) {
-		int result = productMapper.updateProduct(productEntity);
-		logger.info("updateProduct() product:{}, result:{}", productEntity.toString(), result);
-		return result;
-	}
+    @Override
+    public int updateProduct(ProductEntity productEntity) {
+        int result = productMapper.updateProduct(productEntity);
+        logger.info("updateProduct() product:{}, result:{}", productEntity.toString(), result);
+        return result;
+    }
 
-	@Override
-	public int deleteProduct(String id) {
-		int result = productMapper.deleteProduct(id);
-		logger.info("deleteProduct() id={}, result:{}", id, result);
-		return result;
-	}
+    @Override
+    public int deleteProduct(Long id) {
+        int result = productMapper.deleteProduct(id);
+        logger.info("deleteProduct() id={}, result:{}", id, result);
+        return result;
+    }
 
-	@Override
-	public int countProductByType(String type) {
-		return productMapper.countByType(type);
-	}
+    @Override
+    public int countProductByType(String type) {
+        return productMapper.countByType(type);
+    }
 
-	@Override
-	public List<ProductEntity> getProductsByType(int offset, int limit, String type) {
-		List<ProductEntity> list = productMapper.getProductsByType(new RowBounds(offset, limit), type);
-		logger.info("getProductsByType() type={}, result:{}", type, list.size());
-		return list;
-	}
+    @Override
+    public List<ProductEntity> getProductsByType(int offset, int limit, String type) {
+        List<ProductEntity> list = productMapper.getProductsByType(new RowBounds(offset, limit), type);
+        logger.info("getProductsByType() type={}, result:{}", type, list.size());
+        return list;
+    }
 
-	@Override
-	public int countByVo(ProductEntity productEntity) {
-		return productMapper.countByVo(productEntity);
-	}
+    @Override
+    public int countByVo(ProductEntity productEntity) {
+        return productMapper.countByVo(productEntity);
+    }
 
-	@Override
-	public List<ProductEntity> queryByVo(int offset, int limit, ProductEntity productEntity) {
-		List<ProductEntity> list = productMapper.queryByVo(new RowBounds(offset, limit), productEntity);
-		return list;
-	}
+    @Override
+    public List<ProductEntity> queryByVo(int offset, int limit, ProductEntity productEntity) {
+        List<ProductEntity> list = productMapper.queryByVo(new RowBounds(offset, limit), productEntity);
+        return list;
+    }
 
 
 }

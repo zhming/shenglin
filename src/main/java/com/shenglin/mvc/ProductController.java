@@ -54,7 +54,7 @@ public class ProductController {
      * @return
      */
     @RequestMapping(value = "/product.html", method = RequestMethod.GET)
-    public String getProductById(@RequestParam("ID") String id, ModelMap model) {
+    public String getProductById(@RequestParam("ID") Long id, ModelMap model) {
         ProductEntity product = productService.getProductById(id);
 
         TreeMap<String, String> types = productTypeService.getProductTypeAll();
@@ -158,9 +158,9 @@ public class ProductController {
      * @param model
      * @return
      */
-    @RequestMapping(value = "/addProduct.html", method = RequestMethod.POST)
-    public String addProduct(HttpServletRequest request, @ModelAttribute("SpringWeb") ProductEntity productEntity, ModelMap model) {
-        logger.info("addProduct");
+    @RequestMapping(value = "/addOrUpdateProduct.html", method = RequestMethod.POST)
+    public String addOrUpdateProduct(HttpServletRequest request, @ModelAttribute("SpringWeb") ProductEntity productEntity, ModelMap model) {
+        logger.info("addOrUpdateProduct");
         String fileName = "";
         String path = StaticValue.DIR_PIC;
         // 设置上下方文
@@ -173,11 +173,12 @@ public class ProductController {
 
             Iterator<String> iter = multiRequest.getFileNames();
             while (iter.hasNext()) {
-
+                logger.info("filename!####");
                 // 由CommonsMultipartFile继承而来,拥有上面的方法.
                 MultipartFile file = multiRequest.getFile(iter.next());
                 if (file != null) {
                     fileName = file.getOriginalFilename();
+                    if (fileName == null || fileName.equals("")) break;
                     path += fileName;
 
                     File localFile = new File(path);
@@ -190,7 +191,10 @@ public class ProductController {
 
             }
         }
-        productEntity.setPicture("/pic/" + fileName);
+        if (fileName != null && !fileName.trim().equals("")) {
+            productEntity.setPicture("/pic/" + fileName);
+        }
+        logger.info("PRODUCT:{}", productEntity.toString());
         int ret = productService.addProduct(productEntity);
         if (ret == 1) {
             return "redirect:/productManage.html?dpage=1";
@@ -203,19 +207,13 @@ public class ProductController {
      * 修改产品信息
      *
      * @param id
-     * @param model
      * @return
      */
     @RequestMapping(value = "/updateProduct.html", method = RequestMethod.GET)
-    public String updateProductView(@RequestParam("ID") String id, ModelMap model) {
+    public ModelAndView updateProductView(@RequestParam("ID") Long id) {
         DateTimeFormatter formatter = DateTimeFormat.forPattern("yyyy-MM-dd");
         ProductEntity productEntity = productService.getProductById(id);
-        model.addAttribute("name", productEntity.getName());
-        model.addAttribute("type", productEntity.getType());
-        model.addAttribute("description", productEntity.getDescription());
-        model.addAttribute("cs", productEntity.getCs());
-        model.addAttribute("cdate", formatter.print(productEntity.getCdate().getTime()));
-        return "updateProduct";
+        return new ModelAndView("updateProduct", "command", productEntity);
     }
 
     /**
@@ -226,7 +224,7 @@ public class ProductController {
      * @return
      */
     @RequestMapping(value = "/productDelete.html", method = RequestMethod.GET)
-    public ModelAndView deleteProduct(@RequestParam("ID") String id, ModelMap model) {
+    public ModelAndView deleteProduct(@RequestParam("ID") Long id, ModelMap model) {
         int ret = productService.deleteProduct(id);
         model.addAttribute("result", "ok");
         model.addAttribute("dpage", 1);
