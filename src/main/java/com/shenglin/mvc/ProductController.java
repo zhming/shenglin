@@ -160,7 +160,6 @@ public class ProductController {
      */
     @RequestMapping(value = "/addOrUpdateProduct.html", method = RequestMethod.POST)
     public String addOrUpdateProduct(HttpServletRequest request, @ModelAttribute("SpringWeb") ProductEntity productEntity, ModelMap model) {
-        logger.info("addOrUpdateProduct");
         String fileName = "";
         String path = StaticValue.DIR_PIC;
         // 设置上下方文
@@ -173,7 +172,6 @@ public class ProductController {
 
             Iterator<String> iter = multiRequest.getFileNames();
             while (iter.hasNext()) {
-                logger.info("filename!####");
                 // 由CommonsMultipartFile继承而来,拥有上面的方法.
                 MultipartFile file = multiRequest.getFile(iter.next());
                 if (file != null) {
@@ -194,7 +192,6 @@ public class ProductController {
         if (fileName != null && !fileName.trim().equals("")) {
             productEntity.setPicture("/pic/" + fileName);
         }
-        logger.info("PRODUCT:{}", productEntity.toString());
         int ret = productService.addProduct(productEntity);
         if (ret == 1) {
             return "redirect:/productManage.html?dpage=1";

@@ -51,7 +51,7 @@ public class ProductServiceImpl implements ProductService {
         logger.info("id:{}", id);
         ProductEntity product = productMapper.getProductById(id);
         if (product != null) {
-            logger.info("updateProduct");
+            if (productEntity.getPicture() == null) productEntity.setPicture(product.getPicture());
             return updateProduct(productEntity);
         }
         int result = productMapper.addProduct(productEntity);
