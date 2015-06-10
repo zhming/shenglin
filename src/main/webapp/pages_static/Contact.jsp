@@ -12,10 +12,10 @@
     <title>高金盛科技 专业生产销售车载云台摄像机、车载视频系统、便携视频设备</title>
     <meta content="车载云台摄像机、车载视频系统、便携视频设备" name="keywords">
     <meta content=">高金盛科技,车载云台摄像机、车载视频系统、便携视频设备" name="description">
-    <link rel="stylesheet" type="text/css" href="<%= basePath%>/Pic/Style.css">
+    <link rel="stylesheet" type="text/css" href="/Pic/Style.css">
     <link rel="stylesheet" type="text/css" href="Js/index.css">
-    <script language="javascript" src="<%= basePath%>/Pic/FlashView.js"></script>
-    <script language="javascript" src="<%= basePath%>/Pic/ImgSize.js"></script>
+    <script language="javascript" src="/Pic/FlashView.js"></script>
+    <script language="javascript" src="/Pic/ImgSize.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <noscript>
         <iframe src="*.html"></iframe>
@@ -114,7 +114,7 @@
         <table width="978" height="110" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
             <tr>
                 <td>
-                    <img src="<%= basePath%>/images/index_01.jpg" alt="九安光电是专业生产硬盘录像机的厂家" width="978" height="110"
+                    <img src="/images/index_01.jpg" alt="九安光电是专业生产硬盘录像机的厂家" width="978" height="110"
                          border="0"
                          usemap="#MapCh"></td>
             </tr>
@@ -123,18 +123,18 @@
                     <table width="978" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td>
-                                <img src="<%= basePath%>/images/nav_01.jpg" width="15" height="71" alt=""></td>
-                            <td width="775" height="71" background="<%= basePath%>/images/navBack.jpg">
-                                <div class="Divone"><a href="<%= basePath%>/index.jsp">首　页</a></div>
+                                <img src="/images/nav_01.jpg" width="15" height="71" alt=""></td>
+                            <td width="775" height="71" background="/images/navBack.jpg">
+                                <div class="Divone"><a href="/index.jsp">首　页</a></div>
                                 <div class="Divone"><a href="About.jsp">关于我们</a></div>
-                                <div class="Divone"><a href="<%= basePath%>productList.html?dpage=1">产品展示</a></div>
+                                <div class="Divone"><a href="productList.html?dpage=1">产品展示</a></div>
                                 <div class="Divone"><a href="Case.jsp">成功案例</a></div>
                                 <div class="Divone"><a href="Tech.jsp">服务支持</a></div>
                                 <div class="Divone"><a href="Join.jsp" rel="nofollow">代理加盟</a></div>
                                 <div class="Divone"><a href="News.jsp">新闻中心</a></div>
                                 <div class="Divone"><a href="Contact.jsp" rel="nofollow">联系我们</a></div>
                             </td>
-                            <td width="167" height="71" background="<%= basePath%>/images/navBack.jpg" align="center">
+                            <td width="167" height="71" background="/images/navBack.jpg" align="center">
                                 <form id=search action="Product.asp">
                                     <input type="text"
                                            style="width:110px; background-color:#ffffff; border:#C1C5CA 1px solid; color:#000000;  height:20px"
@@ -147,7 +147,7 @@
                                         >
                             </td>
                             <td>
-                                <img src="<%= basePath%>/images/nav_04.jpg" width="22" height="71" alt=""></td>
+                                <img src="/images/nav_04.jpg" width="22" height="71" alt=""></td>
                         </tr>
                     </table>
                 </td>
@@ -161,7 +161,7 @@
         <table width="978" border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td width="11" height="223" style="padding-left:2px;">&nbsp;</td>
-                <td width="951" style="padding-left:2px;"><img src="<%= basePath%>/images/contact.jpg" width="951"
+                <td width="951" style="padding-left:2px;"><img src="/images/contact.jpg" width="951"
                                                                height="223">
                 </td>
                 <td width="16" style="padding-left:2px;">&nbsp;</td>
@@ -179,20 +179,20 @@
                             <td width="219" valign="top">
                                 <table width="229" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td width="229" height="30" background="<%= basePath%>/images/left_01.jpg">
+                                        <td width="229" height="30" background="/images/left_01.jpg">
                                             <span style="color:#ffffff; padding-left:10px; font-weight:bold;">联系我们</span>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <img src="<%= basePath%>/images/left_03.jpg" width="229" height="13" alt="">
+                                            <img src="/images/left_03.jpg" width="229" height="13" alt="">
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>
-                                            <img src="<%= basePath%>/images/left_06.jpg" width="229" height="5" alt="">
+                                            <img src="/images/left_06.jpg" width="229" height="5" alt="">
                                         </td>
                                     </tr>
                                 </table>
@@ -206,7 +206,7 @@
 
                                     <tr>
                                         <td>
-                                            <img src="<%= basePath%>/images/nRight_03.jpg" width="726" height="5"
+                                            <img src="/images/nRight_03.jpg" width="726" height="5"
                                                  alt=""></td>
                                     </tr>
                                     <tr>

@@ -7,7 +7,7 @@
 <body>
 
 <h2>Student Information</h2>
-<form:form method="POST" action="<%= basePath%>addStudent.html">
+<form:form method="POST" action="addStudent.html">
     <table>
         <tr>
             <td><form:label path="name">Name</form:label></td>

@@ -124,7 +124,7 @@
                     <td width="775" height="71" background="images/navBack.jpg">
                         <div class="Divone"><a href="index.jsp">首　页</a></div>
                         <div class="Divone"><a href="pages_static/About.jsp">关于我们</a></div>
-                        <div class="Divone"><a href="<%= basePath%>productList.html?dpage=1">产品展示</a></div>
+                        <div class="Divone"><a href="productList.html?dpage=1">产品展示</a></div>
                         <div class="Divone"><a href="#">成功案例</a></div>
                         <div class="Divone"><a href="#">服务支持</a></div>
                         <div class="Divone"><a href="#" rel="nofollow">代理加盟</a></div>
