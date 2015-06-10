@@ -3,16 +3,21 @@
   <component name="ChangeListManager">
     <list id="4ab1b3f7-642e-4c29-b482-83eb90539325" name="Default" comment="new" />
     <list default="true" id="76e693b0-ece3-4b89-808b-87e0a894d6d6" name="Rejected commit: Default" comment="new">
-      <change type="DELETED" beforePath="E:\zhming\shenglin\.idea\artifacts\shenglin_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\zhming\shenglin\.idea\artifacts\shenglin_war_exploded.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shenglin/mvc/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shenglin/mvc/ProductController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mybatis/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/mapper/ProductMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ProductMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/ProductMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shenglin/service/ProductService.java" afterPath="$PROJECT_DIR$/src/main/java/com/shenglin/service/ProductService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shenglin/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/shenglin/service/impl/ProductServiceImpl.java" />
+      <change type="DELETED" beforePath="D:\workspace\idea\shenglin\.idea\artifacts\shenglin_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\idea\shenglin\.idea\artifacts\shenglin_war_exploded.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages_static/About.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages_static/About.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages_static/Contact.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages_static/Contact.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages_static/News.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages_static/News.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/frame/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/frame/head.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/init.sql" afterPath="$PROJECT_DIR$/db/init.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index_new.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index_new.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/product.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/productListByName.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productListByName.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/productManage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/productManage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/updateProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/updateProduct.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,7 +25,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432737613336" ignored="false" />
     <file path="/web.xml" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1403074067060" ignored="false" />
-    <file path="/Dummy.txt" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1433724170533" ignored="false" />
+    <file path="/Dummy.txt" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1433943277039" ignored="false" />
     <file path="/fragment.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1407739306840" ignored="false" />
     <file path="/hello.jsp" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1400481749383" ignored="false" />
     <file path="/DomainObject.java" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1433473094985" ignored="false" />
@@ -39,7 +44,7 @@
     <file path="/ProductControllerTests.java" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1409187122167" ignored="false" />
     <file path="$PROJECT_DIR$/../simpleSpringMVCApp/pom.xml" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1400653166810" ignored="false" />
     <file path="/product.jsp" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432711570465" ignored="false" />
-    <file path="/a.dummy" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432799900908" ignored="false" />
+    <file path="/a.dummy" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1433944784828" ignored="false" />
     <file path="/ObjectTests.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1402023262018" ignored="false" />
     <file path="/MultimapTests.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1402019803199" ignored="false" />
     <file path="/ObjectsTests.java" changelist="4ab1b3f7-642e-4c29-b482-83eb90539325" time="1402035182021" ignored="false" />
@@ -93,6 +98,7 @@
     <file path="/index_new.jsp" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432707292815" ignored="false" />
     <file path="/News.jsp" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432801829819" ignored="false" />
     <file path="/About.jsp" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1432799646128" ignored="false" />
+    <file path="/Contact.jsp" changelist="76e693b0-ece3-4b89-808b-87e0a894d6d6" time="1433944203502" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,23 +150,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.0.RELEASE/spring-webmvc-3.2.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" line="954" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -173,16 +163,7 @@
       <file leaf-file-name="newProduct.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="89" selection-start="4486" selection-end="4486" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractMultipartHttpServletRequest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
+            <state line="7" column="6" selection-start="482" selection-end="482" vertical-scroll-proportion="-4.75">
               <folding />
             </state>
           </provider>
@@ -191,68 +172,79 @@
       <file leaf-file-name="updateProduct.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/updateProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="90" selection-start="6251" selection-end="6251" vertical-scroll-proportion="-13.571428">
+            <state line="135" column="0" selection-start="6188" selection-end="6188" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenglin/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="54" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/product.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="36" selection-start="9145" selection-end="9145" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1432805001725" expanded="false" signature="14245:14276" placeholder="..." />
-                <marker date="1432805001725" expanded="false" signature="14866:14894" placeholder="..." />
-                <marker date="1432805001725" expanded="false" signature="14947:14975" placeholder="..." />
-                <marker date="1432805001725" expanded="false" signature="14990:15017" placeholder="..." />
-                <marker date="1432805001725" expanded="false" signature="15345:15385" placeholder="..." />
-                <marker date="1432805001725" expanded="false" signature="16169:16188" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedHashMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/LinkedHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="377" column="0" selection-start="14356" selection-end="14356" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log4jLoggerAdapter.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="16" selection-start="2914" selection-end="2914" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonsMultipartFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="2538" selection-end="2538" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProductController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shenglin/mvc/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="46" selection-start="6441" selection-end="6441" vertical-scroll-proportion="0.5872483">
+            <state line="48" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="570" column="83" selection-start="27232" selection-end="27232" vertical-scroll-proportion="0.33208254">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productListForCategory.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="346" column="43" selection-start="18583" selection-end="18583" vertical-scroll-proportion="-6.142857">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_new.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index_new.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="471" column="52" selection-start="23537" selection-end="23537" vertical-scroll-proportion="-2.1132076">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/frame/head.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="11" selection-start="352" selection-end="352" vertical-scroll-proportion="-4.071429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="68" selection-start="656" selection-end="656" vertical-scroll-proportion="-6.785714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages_static/Contact.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="245" column="9" selection-start="11120" selection-end="11120" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/productList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="286" column="70" selection-start="17658" selection-end="17658" vertical-scroll-proportion="-6.321429">
               <folding />
             </state>
           </provider>
@@ -282,22 +274,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/product.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/productList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/product.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/productListByName.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages_static/Contact.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages_static/News.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenglin/base/DomainObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mybatis/mapper/ProductMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenglin/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/updateProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenglin/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenglin/mvc/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index_new.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/frame/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages_static/Contact.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/productList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -361,7 +353,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -372,7 +364,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -396,6 +388,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -809,11 +802,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
@@ -1151,10 +1143,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="shenglin">
+        <artifact name="shenglin:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -1259,7 +1250,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="shenglin" />
+          <artifact name="shenglin:war exploded" />
         </option>
       </method>
     </configuration>
@@ -1395,20 +1386,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32418525" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.67581475" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31965813" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3962264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3327616" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24810319" sideWeight="0.2905297" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24810319" sideWeight="0.25811967" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32389382" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32246998" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1416,15 +1406,16 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25056604" sideWeight="0.12743363" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590052" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6792453" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32246998" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24772727" sideWeight="0.6603774" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33962265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24772727" sideWeight="0.6741573" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31621188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31965813" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6034188" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24810319" sideWeight="0.25811967" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1502,25 +1493,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenglin/base/DomainObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="932" selection-end="936" vertical-scroll-proportion="0.20833333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenglin/beans/entity/ProductEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="47" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0">
@@ -1535,44 +1507,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="89" selection-start="4486" selection-end="4486" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="36" selection-start="9145" selection-end="9145" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1432805001725" expanded="false" signature="14245:14276" placeholder="..." />
-            <marker date="1432805001725" expanded="false" signature="14866:14894" placeholder="..." />
-            <marker date="1432805001725" expanded="false" signature="14947:14975" placeholder="..." />
-            <marker date="1432805001725" expanded="false" signature="14990:15017" placeholder="..." />
-            <marker date="1432805001725" expanded="false" signature="15345:15385" placeholder="..." />
-            <marker date="1432805001725" expanded="false" signature="16169:16188" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="377" column="0" selection-start="14356" selection-end="14356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2538" selection-end="2538" vertical-scroll-proportion="0.0">
+        <state line="156" column="36" selection-start="9067" selection-end="9067" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1584,16 +1521,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.0.RELEASE/spring-webmvc-3.2.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="943" column="76" selection-start="42201" selection-end="42201" vertical-scroll-proportion="0.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shenglin/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="54" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.0">
+        <state line="62" column="54" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1607,14 +1537,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/updateProduct.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="90" selection-start="6251" selection-end="6251" vertical-scroll-proportion="-13.571428">
+        <state line="135" column="0" selection-start="6188" selection-end="6188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shenglin/mvc/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="46" selection-start="6441" selection-end="6441" vertical-scroll-proportion="0.5872483">
+        <state line="48" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/frame/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="352" selection-end="352" vertical-scroll-proportion="-4.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/newProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="482" selection-end="482" vertical-scroll-proportion="-4.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="68" selection-start="656" selection-end="656" vertical-scroll-proportion="-6.785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/productListForCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="346" column="43" selection-start="18583" selection-end="18583" vertical-scroll-proportion="-6.142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages_static/Contact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="9" selection-start="11120" selection-end="11120" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/productList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="70" selection-start="17658" selection-end="17658" vertical-scroll-proportion="-6.321429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index_new.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="471" column="52" selection-start="23537" selection-end="23537" vertical-scroll-proportion="-2.1132076">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="570" column="83" selection-start="27232" selection-end="27232" vertical-scroll-proportion="0.33208254">
           <folding />
         </state>
       </provider>
@@ -1629,7 +1615,7 @@
               <type id="library" />
             </show-content>
           </artifact-editor>
-          <last-edited>shenglin</last-edited>
+          <last-edited>shenglin:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1682,6 +1668,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

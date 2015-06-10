@@ -5,9 +5,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>胜林电子 专业销售车各种载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机</title>
-    <meta content="车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="keywords">
-    <meta content=">胜林科技,车载式海螺型红外夜视摄像机-车载监控,车载硬盘录像机,车载SD卡录像机,3G车载监控,车载录像机" name="description">
+    <title>高金盛科技 专业生产销售车载云台摄像机、车载视频系统、便携视频设备</title>
+    <meta content="车载云台摄像机、车载视频系统、便携视频设备" name="keywords">
+    <meta content=">高金盛科技,车载云台摄像机、车载视频系统、便携视频设备" name="description">
     <link rel="stylesheet" type="text/css" href="<%= basePath%>/Pic/Style.css">
     <link rel="stylesheet" type="text/css" href="<%= basePath%>/Js/index.css">
     <script language="javascript" src="<%= basePath%>/Pic/FlashView.js"></script>
@@ -331,8 +331,8 @@
         <td width="955" height="75" align="center" style="line-height:23px; color:#282828;">
             <DIR>
                 <LI>
-                    <DIV align=center>CopyRight&copy; <A href="#">www.tv2211.com</A> 广州市九安光电技术有限公司<BR>Tel:020-22275999
-                        Fax:020-22647897 Email:jinzm@tv2211.com<BR>地址：广州市天河区棠东横岭工业区3路9号 <BR>网站备案：粤ICP备10101288号·
+                    <DIV align=center>CopyRight&copy; <A href="#">www.kocoso.cn</A> 深圳高金盛科技有限公司<BR>Tel:020-22275999
+                        Fax:020-22647897 Email:jaoys@163.com<BR>地址：深圳市南山区西丽镇红花岭工业南区群泰工业区6栋<BR>
                     </DIV>
                 </LI>
             </DIR>
